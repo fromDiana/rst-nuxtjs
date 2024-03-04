@@ -20,7 +20,7 @@ export default {
     },
     methods: {
         async loadPostsData() {
-            for (let i = 1; i <= 3; i++) {
+            for (let i = 1; i <= 15; i++) {
                 try {
                     let dataModule = await import(`@/assets/posts/post${i}/data.js`);
                     const postData = {

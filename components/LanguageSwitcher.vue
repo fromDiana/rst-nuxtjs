@@ -16,7 +16,7 @@ export default {
     return {
       // Initialize currentLanguage from a cookie, or default to the i18n locale
       // currentLanguage: Cookies.get('userLanguage') || this.$i18n.locale,
-      currentLanguage: this.$i18n.locale,
+      currentLanguage: 'sk',
     };
   },
   methods: {

@@ -97,51 +97,5 @@ export default {
         },
       )
     },
-    // scrollBehavior(to, from, savedPosition) {
-    //   if (savedPosition) {
-    //     return savedPosition;
-    //   }
-
-    //     // Wait for the out transition to complete (if necessary)
-    //     window.$nuxt.$once('triggerScroll', () => {
-    //       // The to.hash check is for hash navigation
-    //       if (to.hash) {
-    //         // this.$smoothScrollTo(to.hash, 400, 700);
-    //         {
-    //           setTimeout(() => {
-    //             const element = document.querySelector(to.hash);
-    //             if (!element) return;
-
-    //             const startingY = window.scrollY;
-    //             const elementRect = element.getBoundingClientRect();
-    //             const viewportHeight = window.innerHeight;
-    //             // Calculate the top offset to align the element to the middle of the viewport
-    //             const elementY = startingY + elementRect.top - (viewportHeight / 2) + (elementRect.height / 2);
-    //             const diff = elementY - startingY;
-    //             let start;
-
-    //             // Easing function: ease-out effect
-    //             const easing = t => 1 - Math.pow(1 - t, 2);
-
-    //             window.requestAnimationFrame(function step(timestamp) {
-    //               if (!start) start = timestamp;
-    //               const time = timestamp - start;
-    //               let percent = Math.min(time / duration, 1);
-    //               percent = easing(percent);
-
-    //               window.scrollTo(0, startingY + diff * percent);
-
-    //               if (time < 700) {
-    //                 window.requestAnimationFrame(step);
-    //               }
-    //             });
-    //           }, 400);
-    //         }
-    //       } else {
-    //         // Scroll to the top of the page
-    //         window.scrollTo({ top: 0, behavior: 'smooth' });
-    //     });
-    //   });
-    // },
   },
 }
