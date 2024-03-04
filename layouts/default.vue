@@ -22,8 +22,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
 html,
 body {
     margin: 0;
@@ -35,8 +33,10 @@ body {
     scrollbar-width: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /* font-family: 'Poppins', sans-serif !important; */
     font-family: 'Poppins', sans-serif !important;
-    font-size: 1rem;
+    src: url('~assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-style: normal;
     color: white;
     -webkit-user-select: none;
     /* Safari */

@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="main-page-buttons">
+    <div class="main-page-buttons" id="services">
       <MainPageButton imageSrc="T_oprava_pocitacov a notebookov.png" text="mainPage.opravaPC"
         :page="'oprava-pc-notebook-kosice'" topMargin="19rem" topMarginMobile="73%" />
       <MainPageButton imageSrc="T_Skladanie_02.png" text="mainPage.skladaniePC" :page="'pc-kosice'" topMargin="19rem"
@@ -20,7 +20,7 @@
       <MainPageButton imageSrc="T_PC_Udrzba.png" text="navigationBar.udrzba" :page="'udrzba-pc-kosice'"
         topMargin="19rem" topMarginMobile="73%" />
     </div>
-    <SpacerComponent :space="'3rem'" id="services" />
+    <SpacerComponent :space="'3rem'" />
     <div class="main-page-buttons">
       <MainPageButton imageSrc="T_Diagnostika.png" text="mainPage.diagnostika" :page="'servis-pc-notebook-kosice'" />
       <MainPageButton imageSrc="T_Notebooky.png" text="navigationBar.notebooky" :page="'notebook-kosice'" />
