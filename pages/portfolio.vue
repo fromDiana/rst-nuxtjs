@@ -49,12 +49,15 @@ export default {
 
 <style>
 .posts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
     gap: 1.5rem;
     padding: 3rem;
     box-sizing: border-box;
     margin-top: 7rem;
+    width: 100vw;
 }
 </style>./portfolio.vue
