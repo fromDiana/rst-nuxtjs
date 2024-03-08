@@ -192,7 +192,7 @@ export default {
 
 .icon {
   width: 2rem;
-  height: auto;
+  height: 2rem;
 }
 
 @media (max-width: 900px) {

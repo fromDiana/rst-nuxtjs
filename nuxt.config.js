@@ -9,9 +9,6 @@ export default {
       lang: 'en'
     },
     link: [
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
     meta: [
@@ -24,6 +21,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/fonts/poppins.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
