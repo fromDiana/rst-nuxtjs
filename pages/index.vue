@@ -5,7 +5,7 @@
       <div class="main-logo-text">
         <div class="main-logo-text-element" style="font-size: 3.9vw; height: 3.7vw;">{{ $t('mainPage.rychlejsie') }}
         </div>
-        <div class="main-logo-text-element" style="font-size: 5vw; letter-spacing: -0.3rem; height: 5.2vw;">{{
+        <div class="main-logo-text-element" style="font-size: 5vw; height: 5.2vw;">{{
           $t('mainPage.spolahlivejsie') }}</div>
         <div class="main-logo-text-element" style="font-size: 3.65vw; height: 3.65vw;">{{ $t('mainPage.tichsie') }}
         </div>
@@ -82,6 +82,12 @@ export default {
           content: 'pc, pocitac, servis, kosice, košice, oprava, notebook, zostava, skladanie, rýchlejšie, spoľahlivejšie, tichšie, rýchlejšie spoľahlivejšie tichšie, rst, rstservis, rst.sk, rst servis, rst.sk servis, rst.sk servis košice, rst.sk košice, rst.sk servis pc košice, rst.sk servis',
         },
       ],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://rst.sk' + this.$route.path,
+        },
+      ],
     }
   },
   components: {
@@ -89,7 +95,7 @@ export default {
     SpacerComponent,
     PartnerComponent,
   },
-  
+
 }
 </script>
 

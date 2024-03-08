@@ -114,7 +114,7 @@ export default {
   font-size: 1.375rem;
   font-weight: 500;
   line-height: 150%;
-  letter-spacing: -5%;
+  /* letter-spacing: -5%; */
   cursor: pointer;
 }
 

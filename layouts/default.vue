@@ -17,6 +17,17 @@ export default {
         NavigationBar,
         // CookiePopup,
         FooterComponent,
+    },
+    head() {
+        return {
+
+            link: [
+                {
+                    rel: 'canonical',
+                    href: 'https://rst.sk' + this.$route.path,
+                },
+            ],
+        }
     }
 };
 </script>
