@@ -67,12 +67,12 @@ export default {
         }
 
         let currentLocale = this.$i18n.locale;
-    if (imagesData[currentLocale] && imagesData[currentLocale].images) {
-        this.actualImageNames = imagesData[currentLocale].images.slice(0, 4);
-        this.allActualImages = imagesData[currentLocale].images;
-    } else {
-        console.error(`Images data for locale ${currentLocale} not found in ${this.imagePath}`);
-    }
+        if (imagesData[currentLocale] && imagesData[currentLocale].images) {
+            this.actualImageNames = imagesData[currentLocale].images.slice(0, 4);
+            this.allActualImages = imagesData[currentLocale].images;
+        } else {
+            console.error(`Images data for locale ${currentLocale} not found in ${this.imagePath}`);
+        }
     },
     computed: {
         modalImagePath() {

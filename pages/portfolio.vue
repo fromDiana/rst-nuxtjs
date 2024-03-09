@@ -12,6 +12,7 @@ export default {
         return {
             postsData: [],
             PostComponent: null,
+            loadedPostsCount: 10,
         }
     },
     methods: {
@@ -20,7 +21,7 @@ export default {
             this.PostComponent = PostComponentModule.default;
         },
         async loadPostsData() {
-            for (let i = 1; i <= 15; i++) {
+            for (let i = 1; i <= this.loadedPostsCount; i++) {
                 try {
                     let dataModule = await import(`@/assets/posts/post${i}/data.js`);
                     const postData = {
@@ -33,24 +34,55 @@ export default {
                 }
             }
         },
+        async loadMorePosts() {
+            let nextIndex = this.postsData.length + 1;
+            let endIndex = nextIndex + 10; // load 10 more posts
+            if (endIndex > 15) {
+                endIndex = 15; // Limit 15 posts
+            }
+            for (let i = nextIndex; i < endIndex; i++) {
+                try {
+                    let dataModule = await import(`@/assets/posts/post${i}/data.js`);
+                    const postData = {
+                        ...dataModule.default,
+                        id: i,
+                    };
+                    this.postsData.push(postData);
+                } catch (e) {
+                    console.error(`Failed to load data for post${i}:`, e);
+                    break;
+                }
+            }
+        },
+        handleScroll() {
+            let bottomOfWindow = document.documentElement.scrollTop + window.innerHeight === document.documentElement.offsetHeight;
+            if (bottomOfWindow) {
+                this.loadMorePosts();
+            }
+        },
 
         localizedText(postData, field) {
             const currentLocale = this.$i18n.locale;
             if (postData[currentLocale] && postData[currentLocale][field]) {
                 return postData[currentLocale][field];
             }
-            return postData['sk'][field]; // Assuming 'sk' is the default/fallback language
+            return postData['sk'][field]; // 'sk' is the default/fallback language
         },
-    }, mounted() {
+    },
+    mounted() {
         this.loadDependencies();
         this.loadPostsData();
+        window.addEventListener('scroll', this.handleScroll);
+    },
+    beforeUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
     },
 }
 </script>
 
 <style>
 .posts {
-    display: flex;    
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
@@ -61,4 +93,4 @@ export default {
     margin-top: 7rem;
     width: 100vw;
 }
-</style>./portfolio.vue
+</style>
