@@ -8,19 +8,14 @@
 </template>
 
 <script>
-import NavigationBar from '@/components/NavigationBar.vue';
-//import CookiePopup from './components/CookiePopup.vue';
-import FooterComponent from '@/components/FooterComponent.vue';
-
 export default {
     components: {
-        NavigationBar,
-        // CookiePopup,
-        FooterComponent,
+        NavigationBar: () => import('@/components/NavigationBar.vue'),
+        // CookiePopup: () => import('@/components/CookiePopup.vue'),
+        FooterComponent: () => import('@/components/FooterComponent.vue'),
     },
     head() {
         return {
-
             link: [
                 {
                     rel: 'canonical',

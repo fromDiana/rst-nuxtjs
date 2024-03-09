@@ -31,13 +31,8 @@
 </template>
 
 <script>
-import LanguageSwitcher from './LanguageSwitcher.vue';
-
 export default {
     name: 'NavigationBar',
-    components: {
-        LanguageSwitcher,
-    },
     data() {
         return {
             isNavigationVisible: false,
@@ -48,9 +43,11 @@ export default {
             defaultImgSrc: require('@/assets/T_RST_LOGO_07.png'),
             hoverImgSrc: require('@/assets/T_RST_LOGO_06.png'),
             currentImgSrc: '', // Will be set on component mount
+            LanguageSwitcher: null,
         };
     },
     mounted() {
+        this.loadDependencies();
         this.checkWindowSize();
         window.addEventListener('resize', this.checkWindowSize);
         this.$el.style.setProperty('--animation-speed', this.animationSpeed);
@@ -71,7 +68,11 @@ export default {
         },
         closeNavigation() {
             this.isNavigationVisible = false;
-        }
+        },
+        async loadDependencies() {
+            const LanguageSwitcherModule = await import('@/components/LanguageSwitcher.vue');
+            this.LanguageSwitcher = LanguageSwitcherModule.default;
+        },
     },
 }
 </script>

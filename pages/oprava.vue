@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import MainPageButton from '@/components/MainPageButton.vue';
 export default {
     head() {
         return {
@@ -30,9 +29,20 @@ export default {
             ],
         };
     },
-    components: {
-        MainPageButton,
-    }
+    data() {
+        return {
+            MainPageButton: null,
+        }
+    },
+    methods: {
+        async loadDependencies() {
+            const MainPageButtonModule = await import('@/components/MainPageButton.vue');
+            this.MainPageButton = MainPageButtonModule.default;
+        },
+    },
+    mounted() {
+        this.loadDependencies();
+    },
 }
 </script>
 

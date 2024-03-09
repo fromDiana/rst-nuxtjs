@@ -7,18 +7,18 @@
 </template>
 
 <script>
-import PostComponent from '@/components/PostComponent.vue';
-
 export default {
-    components: {
-        PostComponent,
-    },
     data() {
         return {
             postsData: [],
+            PostComponent: null,
         }
     },
     methods: {
+        async loadDependencies() {
+            const PostComponentModule = await import('@/components/PostComponent.vue');
+            this.PostComponent = PostComponentModule.default;
+        },
         async loadPostsData() {
             for (let i = 1; i <= 15; i++) {
                 try {
@@ -42,6 +42,7 @@ export default {
             return postData['sk'][field]; // Assuming 'sk' is the default/fallback language
         },
     }, mounted() {
+        this.loadDependencies();
         this.loadPostsData();
     },
 }

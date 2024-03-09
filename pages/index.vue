@@ -62,10 +62,6 @@
 </template>
 
 <script>
-import MainPageButton from '@/components/MainPageButton.vue';
-import SpacerComponent from '@/components/SpacerComponent.vue';
-import PartnerComponent from '@/components/PartnerComponent.vue';
-
 export default {
   head() {
     return {
@@ -91,11 +87,10 @@ export default {
     }
   },
   components: {
-    MainPageButton,
-    SpacerComponent,
-    PartnerComponent,
+    MainPageButton: () => import('@/components/MainPageButton.vue'),
+    SpacerComponent: () => import('@/components/SpacerComponent.vue'),
+    PartnerComponent: () => import('@/components/PartnerComponent.vue'),
   },
-
 }
 </script>
 
