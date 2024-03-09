@@ -4,12 +4,13 @@
         <div class="text-element" v-text="date" style="font-size: 16px; color: #909090"></div>
         <div class="text-element smaller-description" v-text="description" style="font-size: 18px;"></div>
         <div class="images">
-            <div v-for="(imageName, index) in actualImageNames" :key="imageName" class="image-container">
-                <img :src="getImagePath(imageName)" class="post-image" alt="Post" @click="openModal(index)" />
+            <div v-for="(image, index) in actualImageNames" :key="image.name" class="image-container">
+                <img :src="getImagePath(image.name)" :alt="image.alt" class="post-image" @click="openModal(index)" />
             </div>
-            <div v-if="allActualImages.length > 4 && showModal === false && showPlusDiv" @click="openModal(3)" class="plus">+
+            <div v-if="allActualImages.length > 4 && !showModal && showPlusDiv" @click="openModal(3)" class="plus">+
             </div>
         </div>
+
         <div v-if="showModal" class="modal" @click="closeModalOnOutsideClick">
             <button class="close" @click="closeModal()">&times;</button>
             <button class="prev" @click="previousImage">&#10094;</button>
@@ -57,26 +58,28 @@ export default {
         }
     },
     created() {
-        this.actualImageNames = this.potentialImageNames.filter(imageName => {
-            try {
-                require(`@/assets/posts/${this.imagePath}/${imageName}`);
-                return true; // The image is present, keep it
-            } catch (e) {
-                return false;
-            }
-        }).slice(0, 4); // Slice the array to keep only the first 4 elements
-        this.allActualImages = this.potentialImageNames.filter(imageName => {
-            try {
-                require(`@/assets/posts/${this.imagePath}/${imageName}`);
-                return true; // The image is present, keep it
-            } catch (e) {
-                return false;
-            }
-        });
+        let imagesData;
+        try {
+            imagesData = require(`@/assets/posts/${this.imagePath}/data.js`).default;
+        } catch (e) {
+            console.error(`Failed to load images data for ${this.imagePath}:`, e);
+            return;
+        }
+
+        let currentLocale = this.$i18n.locale;
+    if (imagesData[currentLocale] && imagesData[currentLocale].images) {
+        this.actualImageNames = imagesData[currentLocale].images.slice(0, 4);
+        this.allActualImages = imagesData[currentLocale].images;
+    } else {
+        console.error(`Images data for locale ${currentLocale} not found in ${this.imagePath}`);
+    }
     },
     computed: {
         modalImagePath() {
-            return this.getImagePath(this.allActualImages[this.currentImageIndex]);
+            if (this.allActualImages && this.allActualImages.length > this.currentImageIndex) {
+                return this.getImagePath(this.allActualImages[this.currentImageIndex].name);
+            }
+            return '';
         }
     },
     methods: {
@@ -84,7 +87,7 @@ export default {
             try {
                 return require(`@/assets/posts/${this.imagePath}/${imageName}`);
             } catch (e) {
-                return ''; // Return an empty string or a fallback image path
+                return '';
             }
         },
         openModal(imageIndex) {
