@@ -38,7 +38,6 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     font-family: "Poppins", sans-serif !important;
     font-style: normal;
     font-style: normal;
