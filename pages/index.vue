@@ -14,26 +14,26 @@
 
     <div class="main-page-buttons" id="services">
       <MainPageButton imageSrc="T_oprava_pocitacov a notebookov.png" text="mainPage.opravaPC"
-        :page="'oprava-pc-notebook-kosice'" topMargin="19rem" topMarginMobile="73%" alt="hi"/>
+        :page="'oprava-pc-notebook-kosice'" topMargin="19rem" topMarginMobile="73%" alt="Oprava pocitacov a notebookov kosice"/>
       <MainPageButton imageSrc="T_Skladanie_02.png" text="mainPage.skladaniePC" :page="'pc-kosice'" topMargin="19rem"
-        topMarginMobile="73%" />
+        topMarginMobile="73%" alt="Skladanie pocitacov kosice"/>
       <MainPageButton imageSrc="T_PC_Udrzba.png" text="navigationBar.udrzba" :page="'udrzba-pc-kosice'"
-        topMargin="19rem" topMarginMobile="73%" />
+        topMargin="19rem" topMarginMobile="73%" alt="Cistenie pocitacov a notebookov kosice"/>
     </div>
     <SpacerComponent :space="'3rem'" />
     <div class="main-page-buttons">
-      <MainPageButton imageSrc="T_Diagnostika.png" text="mainPage.diagnostika" :page="'servis-pc-notebook-kosice'" />
-      <MainPageButton imageSrc="T_Notebooky.png" text="navigationBar.notebooky" :page="'notebook-kosice'" />
-      <MainPageButton imageSrc="T_Portfólio.png" text="navigationBar.portfolio" :page="'portfolio-pc-servis-kosice'" />
+      <MainPageButton imageSrc="T_Diagnostika.png" text="mainPage.diagnostika" :page="'servis-pc-notebook-kosice'" alt="Diagnostika pocitacov a notebookov kosice"/>
+      <MainPageButton imageSrc="T_Notebooky.png" text="navigationBar.notebooky" :page="'notebook-kosice'" alt="repasovanie notebookov kosice"/>
+      <MainPageButton imageSrc="T_Portfólio.png" text="navigationBar.portfolio" :page="'portfolio-pc-servis-kosice'" alt="Portfolio oprava pc kosice"/>
     </div>
 
     <SpacerComponent :space="'5rem'" />
 
     <div id="references" class="partners">
-      <PartnerComponent image="game_days.png" text="partners.gameDays" page="gamedays.sk" />
-      <PartnerComponent image="games_farm.png" text="partners.gamesFarm" page="games-farm.com" />
-      <PartnerComponent image="triple_hill.png" text="partners.tripleHill" page="triple-hill.com" />
-      <PartnerComponent image="3dvision.png" text="partners.threeDVision" page="3division.sovietrepublic.net" />
+      <PartnerComponent image="game_days.png" text="partners.gameDays" page="gamedays.sk" alt="Game Days konferencia kosice"/>
+      <PartnerComponent image="games_farm.png" text="partners.gamesFarm" page="games-farm.com" alt="Spolocnost Games Farm kosice"/>
+      <PartnerComponent image="triple_hill.png" text="partners.tripleHill" page="triple-hill.com" alt="Spolocnost Triple Hill kosice"/>
+      <PartnerComponent image="3dvision.png" text="partners.threeDVision" page="3division.sovietrepublic.net" alt="Spolocnost 3dvision kosice"/>
     </div>
 
     <SpacerComponent :space="'5rem'" />
@@ -47,10 +47,10 @@
         <p><a href="mailto:rst@rst.sk">rst@rst.sk</a></p>
         <div class="social-icons">
           <a href="https://www.facebook.com/rstskservis" target="_blank">
-            <img src="@/assets/facebook.png" alt="Facebook" class="icon" />
+            <img src="@/assets/facebook.png" alt="Facebook" class="icon" alt="Facebook kontakt rst kosice"/>
           </a>
           <a href="https://www.instagram.com/rstskservis/" target="_blank">
-            <img src="@/assets/instagram.png" alt="Instagram" class="icon" />
+            <img src="@/assets/instagram.png" alt="Instagram" class="icon" alt="Instagram kontakt rst kosice"/>
           </a>
         </div>
         <p>+421 948 600 109</p>
