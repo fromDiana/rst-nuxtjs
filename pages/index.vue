@@ -14,7 +14,7 @@
 
     <div class="main-page-buttons" id="services">
       <MainPageButton imageSrc="T_oprava_pocitacov a notebookov.png" text="mainPage.opravaPC"
-        :page="'oprava-pc-notebook-kosice'" topMargin="19rem" topMarginMobile="73%" />
+        :page="'oprava-pc-notebook-kosice'" topMargin="19rem" topMarginMobile="73%" alt="hi"/>
       <MainPageButton imageSrc="T_Skladanie_02.png" text="mainPage.skladaniePC" :page="'pc-kosice'" topMargin="19rem"
         topMarginMobile="73%" />
       <MainPageButton imageSrc="T_PC_Udrzba.png" text="navigationBar.udrzba" :page="'udrzba-pc-kosice'"

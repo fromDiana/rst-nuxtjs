@@ -1,7 +1,7 @@
 <template>
   <div class="main-page-button" @mouseover="hover = true" @mouseleave="hover = false" @click="navigate">
-    <img :src="require('@/assets/' + imageSrc)" class="main-page-button-image" alt="sluzbyPCServis">
-    <img v-if="doHoverAnimation" :src="require('@/assets/T_Hover.png')" class="main-page-button-hover">
+    <img :src="require('@/assets/' + imageSrc)" class="main-page-button-image" :alt="alt">
+    <img v-if="doHoverAnimation" :src="require('@/assets/T_Hover.png')" class="main-page-button-hover" alt="hover_overlay">
     <div class="main-page-button-text" :style="textStyle">{{ translatedText }}</div>
   </div>
 </template>  
@@ -35,6 +35,10 @@ export default {
       type: Boolean,
       required: false,
       default: true,
+    },
+    alt: {
+      type: String,
+      required: false,
     }
   },
   data() {

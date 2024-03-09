@@ -7,7 +7,7 @@
             <div v-for="(imageName, index) in actualImageNames" :key="imageName" class="image-container">
                 <img :src="getImagePath(imageName)" class="post-image" alt="Post" @click="openModal(index)" />
             </div>
-            <div v-if="allActualImages.length > 4 && showModal == false && showPlusDiv" @click="openModal(3)" class="plus">+
+            <div v-if="allActualImages.length > 4 && showModal === false && showPlusDiv" @click="openModal(3)" class="plus">+
             </div>
         </div>
         <div v-if="showModal" class="modal" @click="closeModalOnOutsideClick">
