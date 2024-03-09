@@ -47,10 +47,10 @@
         <p><a href="mailto:rst@rst.sk">rst@rst.sk</a></p>
         <div class="social-icons">
           <a href="https://www.facebook.com/rstskservis" target="_blank">
-            <img src="@/assets/facebook.png" alt="Facebook" class="icon" alt="Facebook kontakt rst kosice"/>
+            <img src="@/assets/facebook.png" class="icon" alt="Facebook kontakt rst kosice"/>
           </a>
           <a href="https://www.instagram.com/rstskservis/" target="_blank">
-            <img src="@/assets/instagram.png" alt="Instagram" class="icon" alt="Instagram kontakt rst kosice"/>
+            <img src="@/assets/instagram.png" class="icon" alt="Instagram kontakt rst kosice"/>
           </a>
         </div>
         <p>+421 948 600 109</p>
