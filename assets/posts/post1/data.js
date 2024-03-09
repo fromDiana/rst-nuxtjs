@@ -5,10 +5,10 @@ export default {
       date: "2024-01-01",
       description: "Krásna PC zostava určená na prácu v 3D programoch.",
       images: [
-          { name: "image1.jpg", alt: "Alt1" },
-          { name: "image2.jpg", alt: "Alt2" },
-          { name: "image3.jpg", alt: "Alt2" },
-          { name: "image4.jpg", alt: "Alt2" },
+          { name: "image1.jpg", alt: "Pocitac na mieru kosice" },
+          { name: "image2.jpg", alt: "Zostava na mieru kosice" },
+          { name: "image3.jpg", alt: "Graficka karta herna" },
+          { name: "image4.jpg", alt: "Asus tuf" },
       ]
     },
     en: {
@@ -16,10 +16,10 @@ export default {
       date: "2024-01-01",
       description: "Gorgeous custom built PC used mostly 3D software work",
       images: [
-          { name: "image1.jpg", alt: "Alt1" },
-          { name: "image2.jpg", alt: "Alt2" },
-          { name: "image3.jpg", alt: "Alt2" },
-          { name: "image4.jpg", alt: "Alt2" },
+          { name: "image1.jpg", alt: "build pc kosice" },
+          { name: "image2.jpg", alt: "Custom built pc kosice" },
+          { name: "image3.jpg", alt: "Gaming gpu" },
+          { name: "image4.jpg", alt: "Asus tuf" },
       ]
     }
   };
