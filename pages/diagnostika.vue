@@ -25,7 +25,7 @@ export default {
                 {
                     hid: 'keywords',
                     name: 'keywords',
-                    content: 'diagnostika, pc, pocitac, počítač, servis, oprava, kosice, košice, notebook, zostava, oprava grafickej karty, prehrievanie počítača',
+                    content: 'diagnostika pocitaca, diagnostika notebooku, prehrievanie pocitaca, prehrievanie notebooku, prehrievanie grafickej karty, prehrievanie procesora',
                 },
             ],
         };
