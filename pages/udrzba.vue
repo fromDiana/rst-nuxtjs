@@ -25,7 +25,7 @@ export default {
                 {
                     hid: 'keywords',
                     name: 'keywords',
-                    content: 'údržba pc, údržba pocitac, servis, kosice, košice, oprava, notebook, zostava, údržba, profylaxia, prečistenie, prečistenie počítača, prepastovanie, výmena thermalpadov, prečistenie grafickej karty, prepastovanie notebooku, vysoká teplota počítača, vysoká teplota notebooku',
+                    content: 'údržba pc, údržba pocitac, profylaxia, prečistenie, prečistenie počítača, prepastovanie, výmena thermalpadov, prečistenie grafickej karty, prepastovanie notebooku, vysoká teplota počítača, vysoká teplota notebooku, pc maintenance, laptop maintenance, laptop cleaning, computer cleaning, repaste laptop, repaste pc, overheating computer, overheating laptop',
                 },
             ],
         };
