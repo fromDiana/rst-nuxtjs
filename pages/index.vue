@@ -30,10 +30,10 @@
     <SpacerComponent :space="'5rem'" />
 
     <div id="references" class="partners">
-      <PartnerComponent image="game_days.png" text="partners.gameDays" page="gamedays.sk" alt="Game Days konferencia kosice"/>
-      <PartnerComponent image="games_farm.png" text="partners.gamesFarm" page="games-farm.com" alt="Spolocnost Games Farm kosice"/>
-      <PartnerComponent image="triple_hill.png" text="partners.tripleHill" page="triple-hill.com" alt="Spolocnost Triple Hill kosice"/>
-      <PartnerComponent image="3dvision.png" text="partners.threeDVision" page="3division.sovietrepublic.net" alt="Spolocnost 3dvision kosice"/>
+      <PartnerComponent image="game_days.png" text="partners.gameDays" page="gamedays.sk" alt="Logo Game Days konferencia"/>
+      <PartnerComponent image="games_farm.png" text="partners.gamesFarm" page="games-farm.com" alt="Logo herneho studia Games Farm"/>
+      <PartnerComponent image="triple_hill.png" text="partners.tripleHill" page="triple-hill.com" alt="Logo herneho studia Triple Hill"/>
+      <PartnerComponent image="3dvision.png" text="partners.threeDVision" page="3division.sovietrepublic.net" alt="Logo herneho studia 3dvision"/>
     </div>
 
     <SpacerComponent :space="'5rem'" />
@@ -47,10 +47,10 @@
         <p><a href="mailto:rst@rst.sk">rst@rst.sk</a></p>
         <div class="social-icons">
           <a href="https://www.facebook.com/rstskservis" target="_blank">
-            <img src="@/assets/facebook.png" class="icon" alt="Facebook kontakt rst kosice"/>
+            <img src="@/assets/facebook.png" class="icon" alt="Facebook kontakt rst"/>
           </a>
           <a href="https://www.instagram.com/rstskservis/" target="_blank">
-            <img src="@/assets/instagram.png" class="icon" alt="Instagram kontakt rst kosice"/>
+            <img src="@/assets/instagram.png" class="icon" alt="Instagram kontakt rst"/>
           </a>
         </div>
         <p>+421 948 600 109</p>
@@ -70,7 +70,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Servis, Skladanie počítačových zostáv na mieru. Oprava počítačov a notebookov. Košice',
+          content: 'Servis, Skladanie počítačových zostáv na mieru. Oprava počítačov a notebookov.',
         },
         {
           hid: 'keywords',
