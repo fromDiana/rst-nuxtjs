@@ -9,11 +9,11 @@ export default {
           { name: "image2.jpg", alt: "prach v poctaci" },
           { name: "image3.jpg", alt: "cistenie pocitaca kosice" },
           { name: "image4.jpg", alt: "prach vo vodnom chladeni" },
-          { name: "image5.jpg", alt: "cistenie chladenia kosice" },
+          { name: "image5.jpg", alt: "cistenie chladenia" },
           { name: "image6.jpg", alt: "prach pri harddisku" },
           { name: "image7.jpg", alt: "prehrievanie pocitaca" },
           { name: "image8.jpg", alt: "akumulovany prach v pocitaci" },
-          { name: "image9.jpg", alt: "vycistena zostava kosice" },
+          { name: "image9.jpg", alt: "vycistena zostava" },
       ]
     },
     en: {
@@ -23,13 +23,13 @@ export default {
       images: [
           { name: "image1.jpg", alt: "dust filter in a computer" },
           { name: "image2.jpg", alt: "dust in a computer" },
-          { name: "image3.jpg", alt: "computer cleaning kosice" },
-          { name: "image4.jpg", alt: "water cooling dust cleaning kosice" },
-          { name: "image5.jpg", alt: "overheating computer kosice" },
+          { name: "image3.jpg", alt: "computer cleaning" },
+          { name: "image4.jpg", alt: "water cooling dust cleaning" },
+          { name: "image5.jpg", alt: "overheating computer" },
           { name: "image6.jpg", alt: "dust by the harddrive" },
-          { name: "image7.jpg", alt: "computer maintenance kosice" },
+          { name: "image7.jpg", alt: "computer maintenance" },
           { name: "image8.jpg", alt: "accumulated dust in a computer" },
-          { name: "image9.jpg", alt: "clean computer kosice" },
+          { name: "image9.jpg", alt: "clean computer" },
       ]
     }
   };
