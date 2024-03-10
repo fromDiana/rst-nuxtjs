@@ -4,8 +4,8 @@ export default {
       date: "2023-02-10",
       description: "Biela farba s RGB podsvietením sa zatiaľ neokukala. Nespornou výhodou je možnosť nastavenia podsvietenia v celom spektre.",
       images: [
-          { name: "image1.jpg", alt: "RGB herny pocitac kosice" },
-          { name: "image2.jpg", alt: "podsvieteny herny pocitac" },
+          { name: "image1.jpg", alt: "RGB herny pocitac" },
+          { name: "image2.jpg", alt: "podsvieteny herny" },
           { name: "image3.jpg", alt: "custom kabelaz herny pocitac" },
           { name: "image4.jpg", alt: "krasny herny pocitac" },
       ]
