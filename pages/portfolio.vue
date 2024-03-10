@@ -15,7 +15,7 @@ export default {
                 {
                     hid: 'description',
                     name: 'description',
-                    content: 'Skladanie počítačov na mieru Košice',
+                    content: 'Portfólio prác vykonaných u nás. Zahrňuje opravy, úpravy, údržby notebookov, počítačov a iných zariadení',
                 },
                 {
                     hid: 'keywords',
