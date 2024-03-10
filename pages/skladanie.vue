@@ -21,7 +21,7 @@ export default {
                 {
                     hid: 'description',
                     name: 'description',
-                    content: '',
+                    content: 'Skladanie počítačov na mieru Košice',
                 },
                 {
                     hid: 'keywords',
