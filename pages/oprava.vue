@@ -19,7 +19,7 @@ export default {
                 {
                     hid: 'description',
                     name: 'description',
-                    content: '',
+                    content: 'Oprava počítačov a notebookov Košice',
                 },
                 {
                     hid: 'keywords',
