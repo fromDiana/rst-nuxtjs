@@ -8,6 +8,23 @@
 
 <script>
 export default {
+    head() {
+        return {
+            title: 'Portfolio',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Skladanie počítačov na mieru Košice',
+                },
+                {
+                    hid: 'keywords',
+                    name: 'keywords',
+                    content: 'pc, pocitac, na mieru, kosice, košice, custom zostava, počítač na mieru, zostava, skladanie, ručne skladané, rýchlejšie spoľahlivejšie tichšie, rst, rstservis, rst.sk, rst servis, rst.sk servis, rst.sk servis košice, rst.sk košice, rst.sk servis pc košice, rst.sk servis',
+                },
+            ],
+        };
+    },
     data() {
         return {
             postsData: [],
