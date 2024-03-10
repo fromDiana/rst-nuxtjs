@@ -25,7 +25,7 @@ export default {
                 {
                     hid: 'keywords',
                     name: 'keywords',
-                    content: 'servis, kosice, košice, oprava, notebook, oprava laptopu, oprava notebooku',
+                    content: 'oprava laptopu, oprava notebooku, prehrievanie notebooku, hlucny notebook, prach v notebooku',
                 },
             ],
         };
