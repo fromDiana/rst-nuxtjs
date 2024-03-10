@@ -24,7 +24,7 @@ export default {
                 {
                     hid: 'keywords',
                     name: 'keywords',
-                    content: 'pc, pocitac, servis, kosice, košice, oprava, notebook, zostava, rýchlejšie, spoľahlivejšie, tichšie, rýchlejšie spoľahlivejšie tichšie, rst, rstservis, rst.sk, rst servis, rst.sk servis, rst.sk servis košice, rst.sk košice, rst.sk servis pc košice, rst.sk servis',
+                    content: 'oprava pc, oprava pocitaca, oprava notebooku, servis pc, servis pocitaca, servis notebooku, repair laptop, repair computer',
                 },
             ],
         };
