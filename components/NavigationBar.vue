@@ -3,7 +3,7 @@
         <NuxtLink to="/" class="image-wrapper">
             <img class="main-logo default-logo" :src="defaultImgSrc" alt="RST" />
             <img class="main-logo hover-logo" :src="hoverImgSrc" @mouseover="hover = true"
-                @mouseleave="hover = false" />
+                @mouseleave="hover = false" alt="RST hover logo" />
         </NuxtLink>
 
         <LanguageSwitcher class="lang-switcher" />
@@ -26,7 +26,7 @@
 
         <div class="overlay" v-show="isNavigationVisible" @click="closeNavigation"></div>
         <img @click="toggleNavigation" :src="isNavigationVisible ? closeButtonUrl : hamburgerMenuUrl"
-            class="hamburger-menu" />
+            class="hamburger-menu" alt="hamburger menu" />
     </header>
 </template>
 
