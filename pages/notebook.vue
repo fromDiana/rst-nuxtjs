@@ -25,7 +25,7 @@ export default {
                 {
                     hid: 'keywords',
                     name: 'keywords',
-                    content: 'oprava laptopu, oprava notebooku, prehrievanie notebooku, hlucny notebook, prach v notebooku',
+                    content: 'oprava laptopu, oprava notebooku, prehrievanie notebooku, hlucny notebook, prach v notebooku, repair laptop, noisy laptop, dusty laptop, cleaning laptop',
                 },
             ],
         };
