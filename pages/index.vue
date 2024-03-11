@@ -70,7 +70,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Servis, Skladanie počítačových zostáv na mieru. Oprava počítačov a notebookov.',
+          content: 'Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.',
         },
         {
           hid: 'keywords',
