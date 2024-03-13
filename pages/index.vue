@@ -3,12 +3,9 @@
     <div id="fb-root"></div>
     <div class="main-page-image-background">
       <div class="main-logo-text">
-        <div class="main-logo-text-element" style="font-size: 3.9vw; height: 3.7vw;">{{ $t('mainPage.rychlejsie') }}
-        </div>
-        <div class="main-logo-text-element" style="font-size: 5vw; height: 5.2vw;">{{
-          $t('mainPage.spolahlivejsie') }}</div>
-        <div class="main-logo-text-element" style="font-size: 3.65vw; height: 3.65vw;">{{ $t('mainPage.tichsie') }}
-        </div>
+        <h1 class="main-logo-text-element" style="font-size: 3.9vw; height: 3.7vw;">{{ $t('mainPage.rychlejsie') }}</h1>
+        <h1 class="main-logo-text-element" style="font-size: 5vw; height: 5.2vw;">{{ $t('mainPage.spolahlivejsie') }}</h1>
+        <h1 class="main-logo-text-element" style="font-size: 3.65vw; height: 3.65vw;">{{ $t('mainPage.tichsie') }}</h1>
       </div>
     </div>
 
