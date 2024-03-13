@@ -4,6 +4,7 @@
             :doHoverAnimation="false" class="page-button" />
         <div>
             <h1 class="computerPage custom-h1">{{ $t("computerPage.p1") }}</h1>
+            <div class="empty-line"></div>
             <h2 class="computerPage custom-h2">{{ $t("computerPage.p2") }}</h2>
             <p>{{ $t("computerPage.p3") }}</p>
             <p>{{ $t("computerPage.p4") }}</p>
@@ -56,5 +57,9 @@ export default {
 .custom-h2 {
   font-size: 16px;
   font-weight: normal;
+}
+/* Custom styles for empty line */
+.empty-line {
+  height: 10px;
 }
 </style>
