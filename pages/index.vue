@@ -12,14 +12,14 @@
       </div>
     </div>
 
-    <div class="main-page-buttons" id="services">
+    <h1 class="main-page-buttons" id="services">
       <MainPageButton imageSrc="T_oprava_pocitacov a notebookov.png" text="mainPage.opravaPC"
         :page="'oprava-pc-notebook-kosice'" topMargin="19rem" topMarginMobile="73%" alt="Oprava pocitacov a notebookov kosice"/>
       <MainPageButton imageSrc="T_Skladanie_02.png" text="mainPage.skladaniePC" :page="'pc-kosice'" topMargin="19rem"
         topMarginMobile="73%" alt="Skladanie pocitacov kosice"/>
       <MainPageButton imageSrc="T_PC_Udrzba.png" text="navigationBar.udrzba" :page="'udrzba-pc-kosice'"
         topMargin="19rem" topMarginMobile="73%" alt="Cistenie pocitacov a notebookov kosice"/>
-    </div>
+    </h1>
     <SpacerComponent :space="'3rem'" />
     <div class="main-page-buttons">
       <MainPageButton imageSrc="T_Diagnostika.png" text="mainPage.diagnostika" :page="'servis-pc-notebook-kosice'" alt="Diagnostika pocitacov a notebookov kosice"/>
