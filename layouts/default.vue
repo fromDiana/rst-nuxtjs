@@ -9,33 +9,53 @@
 
 <script>
 export default {
-    components: {
-        NavigationBar: () => import('@/components/NavigationBar.vue'),
-        // CookiePopup: () => import('@/components/CookiePopup.vue'),
-        FooterComponent: () => import('@/components/FooterComponent.vue'),
-    },
-    head() {
-        return {
-            link: [
-                {
-                    rel: 'canonical',
-                    href: 'https://rst.sk' + this.$route.path,
-                },
-            ],
-        }
-    },
-    // redirecting from old website
-    middleware(context) {
-        console.log("middleware");
-        console.log(context.route.path);
-        const oldPaths = ['/kontakty', '/slu%C5%BEby-servis-oprava-kosice',
-            '/kto-sme-kosice', '/kontakty?lightbox=dataItem-kkx57qgh6',
-            '/kontakty?lightbox=dataItem-kkx6l1ui'];
-        const newPath = '/';
-        if (oldPaths.includes(context.route.path)) {
-            return context.redirect(301, newPath);
-        }
+  components: {
+    NavigationBar: () => import('@/components/NavigationBar.vue'),
+    FooterComponent: () => import('@/components/FooterComponent.vue'),
+  },
+  head() {
+    const ogImageURL = 'https://rst.sk/opengraphmeta.jpg'; // URL of your OpenGraph image
+    return {
+      title: 'RST - Rýchlejšie, spoľahlivejšie, tichšie',
+      meta: [
+        // HTML Meta Tags
+        { name: 'description', content: 'Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.' },
+
+        // Facebook Meta Tags
+        { property: 'og:url', content: 'https://www.rst.sk' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'RST - Rýchlejšie, spoľahlivejšie, tichšie' },
+        { property: 'og:description', content: 'Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.' },
+        { property: 'og:image', content: ogImageURL }, // Added og:image meta tag
+
+        // Twitter Meta Tags
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:domain', content: 'rst.sk' },
+        { property: 'twitter:url', content: 'https://www.rst.sk' },
+        { name: 'twitter:title', content: 'RST - Rýchlejšie, spoľahlivejšie, tichšie' },
+        { name: 'twitter:description', content: 'Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.' },
+        // Add more Twitter meta tags as needed
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://rst.sk' + this.$route.path,
+        },
+      ],
     }
+  },
+  // redirecting from old website
+  middleware(context) {
+    console.log("middleware");
+    console.log(context.route.path);
+    const oldPaths = ['/kontakty', '/slu%C5%BEby-servis-oprava-kosice',
+      '/kto-sme-kosice', '/kontakty?lightbox=dataItem-kkx57qgh6',
+      '/kontakty?lightbox=dataItem-kkx6l1ui'];
+    const newPath = '/';
+    if (oldPaths.includes(context.route.path)) {
+      return context.redirect(301, newPath);
+    }
+  }
 };
 </script>
 
