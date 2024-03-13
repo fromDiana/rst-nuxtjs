@@ -42,10 +42,11 @@ computerPage: {
   p5: "Post-delivery support: The process doesnt end with the delivery of the finished computer build. Any issues, whether immediate or after a few days of usage, will be addressed together. Specific problems with particular programs causing instability may arise, which we'll resolve. Periodically, I'll reach out to ensure everything is exactly as agreed upon and your computer meets all the expectations."
 },
 laptopPage: {
-  p1: "In laptops, customers don't have as much freedom to choose specific components as they do when customizing a computer. However, that doesn't mean we can't select better, higher-quality, and more reliable options. It's not always about raw performance, and I don't always recommend replacing laptops to my customers.",
-  p2: "I often encounter similar issues - system slowness, stuttering, overheating. This situation typically leads customers to seek a new laptop. However, I believe it's always better to upgrade or restore the device to a like-new condition (usually better in technical terms) than to dispose of it and buy a new one.",
-  p3: "Of course, in the case of purchasing a new laptop, I'm happy to advise and find one that meets not only your performance, quality, and design expectations but also ensures satisfaction throughout the device's lifespan with proper care, which can extend far beyond its warranty period.",
-  p4: "Servicing a laptop is nothing to be feared. On the contrary, regular maintenance only brings benefits. The device runs faster, lasts longer, and, most importantly, avoids costly (both financially and in terms of time) repairs or premature replacement."
+  p1: "Fix, refurbish, or buy a new laptop?",
+  p2: "In laptops, customers don't have as much freedom to choose specific components as they do when customizing a computer. However, that doesn't mean we can't select better, higher-quality, and more reliable options. It's not always about raw performance, and I don't always recommend replacing laptops to my customers.",
+  p3: "I often encounter similar issues - system slowness, stuttering, overheating. This situation typically leads customers to seek a new laptop. However, I believe it's always better to upgrade or restore the device to a like-new condition (usually better in technical terms) than to dispose of it and buy a new one.",
+  p4: "Of course, in the case of purchasing a new laptop, I'm happy to advise and find one that meets not only your performance, quality, and design expectations but also ensures satisfaction throughout the device's lifespan with proper care, which can extend far beyond its warranty period.",
+  p5: "Servicing a laptop is nothing to be feared. On the contrary, regular maintenance only brings benefits. The device runs faster, lasts longer, and, most importantly, avoids costly (both financially and in terms of time) repairs or premature replacement."
 },
 repairPage: {
   p1: 'Every machine deserves a second chance.',
@@ -53,10 +54,11 @@ repairPage: {
   p3: 'Using high-quality spare parts is an essential part of the repair process. This ensures the durability and reliability of the device for an extended period.'
 },
 maintenancePage: {
-  p1: 'Taking care of your device is much like taking care of yourself. You can maintain your computer, clean it yourself, and once every year or two, have it professionally serviced.',
-  p2: "When receiving your new setup, we'll go through the exact cleaning and maintenance procedures together. We'll discuss where the dust filters are, how to remove them, what can help, and what might harm and accumulate dust in the computer.",
-  p3: "In an ideal world, this process is followed, and you can enjoy a consistently quiet and powerful machine. Of course, life doesn't always go as planned, and that's where I'm happy to help.",
-  p4: "Certainly, it's not a problem if the computer was assembled by someone else. I'm more than happy to take a look and suggest even any improvements if the situation requires."
+  p1: 'Maintenance of a computer or a notebook is essential for the longevity of the device.',
+  p2: 'Taking care of your device is much like taking care of yourself. You can maintain your computer, clean it yourself, and once every year or two, have it professionally serviced.',
+  p3: "When receiving your new setup, we'll go through the exact cleaning and maintenance procedures together. We'll discuss where the dust filters are, how to remove them, what can help, and what might harm and accumulate dust in the computer.",
+  p4: "In an ideal world, this process is followed, and you can enjoy a consistently quiet and powerful machine. Of course, life doesn't always go as planned, and that's where I'm happy to help.",
+  p5: "Certainly, it's not a problem if the computer was assembled by someone else. I'm more than happy to take a look and suggest even any improvements if the situation requires."
 },
 diagnosticsPage: {
   p1: 'Diagnostics help solve problems but also anticipate them.',
