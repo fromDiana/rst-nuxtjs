@@ -4,6 +4,7 @@
             topMargin="73%" :doHoverAnimation="false" class="page-button" />
         <div>
             <h1 class="maintenancePage custom-h1">{{ $t("maintenancePage.p1") }}</h1>
+            <div class="empty-line"></div>
             <h2 class="maintenancePage custom-h2">{{ $t("maintenancePage.p2") }}</h2>
             <p>{{ $t("maintenancePage.p3") }}</p>
             <p>{{ $t("maintenancePage.p4") }}</p>
@@ -56,5 +57,9 @@ export default {
 .custom-h2 {
   font-size: 16px;
   font-weight: normal;
+}
+/* Custom styles for empty line */
+.empty-line {
+  height: 10px;
 }
 </style>
