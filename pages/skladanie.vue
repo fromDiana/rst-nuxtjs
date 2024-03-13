@@ -48,4 +48,13 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+/* Custom styles for H1 and H2 tags */
+.custom-h1 {
+  font-size: 16px;
+}
+.custom-h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+</style>
