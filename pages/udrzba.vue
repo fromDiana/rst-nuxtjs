@@ -3,8 +3,8 @@
         <MainPageButton imageSrc="T_PC_Udrzba.png" text="navigationBar.udrzba" :page="'udrzba-pc-kosice'"
             topMargin="73%" :doHoverAnimation="false" class="page-button" />
         <div>
-            <p>{{ $t("maintenancePage.p1") }}</p>
-            <p>{{ $t("maintenancePage.p2") }}</p>
+            <h1 class="maintenancePage custom-h1">{{ $t("maintenancePage.p1") }}</h1>
+            <h2 class="maintenancePage custom-h2">{{ $t("maintenancePage.p2") }}</h2>
             <p>{{ $t("maintenancePage.p3") }}</p>
             <p>{{ $t("maintenancePage.p4") }}</p>
             <p>{{ $t("maintenancePage.p5") }}</p>
@@ -48,4 +48,14 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+/* Custom styles for H1 and H2 tags */
+.custom-h1 {
+  font-size: 16px;
+}
+
+.custom-h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+</style>
