@@ -3,8 +3,8 @@
         <MainPageButton imageSrc="T_oprava_pocitacov a notebookov.png" text="mainPage.opravaPC"
             :page="'oprava-pc-notebook-kosice'" topMargin="73%" :doHoverAnimation="false" class="page-button" />
         <div>
-            <p>{{ $t("repairPage.p1") }}</p>
-            <p>{{ $t("repairPage.p2") }}</p>
+            <h1 class="repairPage custom-h1">{{ $t("repairPage.p1") }}</h1>
+            <h2 class="repairPage custom-h2">{{ $t("repairPage.p2") }}</h2>
             <p>{{ $t("repairPage.p3") }}</p>
         </div>
     </div>
