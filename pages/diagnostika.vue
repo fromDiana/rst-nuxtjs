@@ -49,16 +49,4 @@ export default {
 </script>
 
 <style>
-/* Custom styles for H1 and H2 tags */
-.custom-h1 {
-  font-size: 16px;
-}
-.custom-h2 {
-  font-size: 16px;
-  font-weight: normal;
-}
-/* Custom styles for empty line */
-.empty-line {
-  height: 6px;
-}
 </style>
