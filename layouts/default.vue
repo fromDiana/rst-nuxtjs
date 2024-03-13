@@ -18,9 +18,6 @@ export default {
     return {
       title: 'RST - Rýchlejšie, spoľahlivejšie, tichšie',
       meta: [
-        // HTML Meta Tags
-        { name: 'description', content: 'Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.' },
-
         // Facebook Meta Tags
         { property: 'og:url', content: 'https://www.rst.sk' },
         { property: 'og:type', content: 'website' },
