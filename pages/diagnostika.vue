@@ -59,6 +59,6 @@ export default {
 }
 /* Custom styles for empty line */
 .empty-line {
-  height: 10px;
+  height: 6px;
 }
 </style>
