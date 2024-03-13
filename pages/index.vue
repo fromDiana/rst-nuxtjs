@@ -78,12 +78,6 @@ export default {
           content: 'pc, pocitac, servis, kosice, košice, oprava, notebook, zostava, skladanie, rýchlejšie, spoľahlivejšie, tichšie, rýchlejšie spoľahlivejšie tichšie, rst, rstservis, rst.sk, rst servis, rst.sk servis, rst.sk servis košice, rst.sk košice, rst.sk servis pc košice, rst.sk servis',
         },
       ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://rst.sk' + this.$route.path,
-        },
-      ],
     }
   },
   components: {
