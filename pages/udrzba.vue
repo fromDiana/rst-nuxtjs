@@ -7,6 +7,7 @@
             <p>{{ $t("maintenancePage.p2") }}</p>
             <p>{{ $t("maintenancePage.p3") }}</p>
             <p>{{ $t("maintenancePage.p4") }}</p>
+            <p>{{ $t("maintenancePage.p5") }}</p>
         </div>
     </div>
 </template>
