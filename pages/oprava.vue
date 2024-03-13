@@ -4,6 +4,7 @@
             :page="'oprava-pc-notebook-kosice'" topMargin="73%" :doHoverAnimation="false" class="page-button" />
         <div>
             <h1 class="repairPage custom-h1">{{ $t("repairPage.p1") }}</h1>
+            <div class="empty-line"></div>
             <h2 class="repairPage custom-h2">{{ $t("repairPage.p2") }}</h2>
             <p>{{ $t("repairPage.p3") }}</p>
         </div>
@@ -54,5 +55,9 @@ export default {
 .custom-h2 {
   font-size: 16px;
   font-weight: normal;
+}
+/* Custom styles for empty line */
+.empty-line {
+  height: 10px;
 }
 </style>
