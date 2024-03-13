@@ -34,7 +34,7 @@ export default {
         { property: 'twitter:url', content: 'https://www.rst.sk' },
         { name: 'twitter:title', content: 'RST - Rýchlejšie, spoľahlivejšie, tichšie' },
         { name: 'twitter:description', content: 'Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.' },
-        // Add more Twitter meta tags as needed
+        { name: 'twitter:image', content: ogImageURL }, // Added twitter:image meta tag
       ],
       link: [
         {
