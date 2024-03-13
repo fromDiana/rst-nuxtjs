@@ -3,8 +3,8 @@
         <MainPageButton imageSrc="T_Diagnostika.png" text="mainPage.diagnostika" :page="'servis-pc-notebook-kosice'"
             topMargin="82%" class="page-button" :doHoverAnimation="false" />
         <div>
-            <p>{{ $t("diagnosticsPage.p1") }}</p>
-            <p>{{ $t("diagnosticsPage.p2") }}</p>
+            <h1 class="diagnosticsPage custom-h1">{{ $t("diagnosticsPage.p1") }}</h1>
+            <h2 class="diagnosticsPage custom-h2">{{ $t("diagnosticsPage.p2") }}</h2>
             <p>{{ $t("diagnosticsPage.p3") }}</p>
         </div>
     </div>
