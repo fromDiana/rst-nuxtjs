@@ -30,9 +30,21 @@ export default {
                     content: 'oprava laptopu, oprava notebooku, prehrievanie notebooku, hlucny notebook, prach v notebooku, repair laptop, noisy laptop, dusty laptop, cleaning laptop',
                 },
             ],
+            script: [
+                {
+                    type: 'application/ld+json',
+                    innerHTML: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "Notebooky",
+                        "description": "Nový alebo starý notebook, na všetko sa u nás nájde riešenie",
+                        "keywords": "oprava laptopu, oprava notebooku, prehrievanie notebooku, hlucny notebook, prach v notebooku, repair laptop, noisy laptop, dusty laptop, cleaning laptop",
+                        "inLanguage": "sk",
+                    })
+                }
+            ]
         };
     },
-    path: 'notebook-kosice',
     data() {
         return {
             MainPageButton: null,

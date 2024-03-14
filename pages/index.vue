@@ -78,6 +78,41 @@ export default {
           content: 'pc, pocitac, servis, kosice, košice, oprava, notebook, zostava, skladanie, rýchlejšie, spoľahlivejšie, tichšie, rýchlejšie spoľahlivejšie tichšie, rst, rstservis, rst.sk, rst servis, rst.sk servis, rst.sk servis košice, rst.sk košice, rst.sk servis pc košice, rst.sk servis',
         },
       ],
+      script: [
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie",
+            "url": "https://www.rst.sk",
+            "logo": "https://www.rst.sk/_nuxt/img/T_RST_LOGO_06.9b43811.png",
+            "description": "Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.",
+            "keywords": "pc, pocitac, servis, kosice, košice, oprava, notebook, zostava, skladanie, rýchlejšie, spoľahlivejšie, tichšie, rýchlejšie spoľahlivejšie tichšie, rst, rstservis, rst.sk, rst servis, rst.sk servis, rst.sk servis košice, rst.sk košice, rst.sk servis pc košice, rst.sk servis",
+            "sameAs": [
+              "https://www.facebook.com/rstskservis",
+              "https://www.instagram.com/rstskservis/",
+            ],
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+421-948-600-109",
+                "contactType": "customer service",
+                "areaServed": "SK",
+                "availableLanguage": ["Slovak", "English"]
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Popradská 82",
+              "addressLocality": "Košice",
+              "addressRegion": "Košický",
+              "postalCode": "04011",
+              "addressCountry": "Slovakia"
+            }
+          })
+        }
+      ]
     }
   },
   components: {

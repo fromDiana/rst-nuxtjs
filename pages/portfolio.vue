@@ -23,6 +23,19 @@ export default {
                     content: 'portfolio oprava pocitaca, portfolio oprava notebooku, portfolio prac, portfolio laptop repair, portfolio computer repair',
                 },
             ],
+            script: [
+                {
+                    type: 'application/ld+json',
+                    innerHTML: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "CollectionPage",
+                        "name": "Naše portfólio",
+                        "description": "Portfólio prác vykonaných u nás. Zahrňuje opravy, úpravy, údržby notebookov, počítačov a iných zariadení",
+                        "keywords": "portfolio oprava pocitaca, portfolio oprava notebooku, portfolio prac, portfolio laptop repair, portfolio computer repair",
+                        "inLanguage": "sk",
+                    })
+                }
+            ]
         };
     },
     data() {

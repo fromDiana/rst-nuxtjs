@@ -22,7 +22,7 @@ export default {
                 {
                     hid: 'description',
                     name: 'description',
-                    content: 'Skladanie počítačov na mieru Košice',
+                    content: 'Zhotovenie počítačov na mieru v Košiciach',
                 },
                 {
                     hid: 'keywords',
@@ -30,6 +30,23 @@ export default {
                     content: 'pocitac na mieru, skladanie pocitaca, tichy pocitac, spolahlivy pocitac, herny pocitac, custom built pc, silent pc, reliable pc, gaming pc',
                 },
             ],
+            script: [
+                {
+                    type: 'application/ld+json',
+                    innerHTML: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "serviceType": "Zhotovenie počítača na mieru",
+                        "provider": {
+                            "@type": "Organization",
+                            "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
+                        },
+                        "description": "Zhotovenie počítačov na mieru v Košiciach",
+                        "keywords": "pocitac na mieru, skladanie pocitaca, tichy pocitac, spolahlivy pocitac, herny pocitac, custom built pc, silent pc, reliable pc, gaming pc",
+                        "inLanguage": "sk",
+                    })
+                }
+            ]
         };
     },
     data() {

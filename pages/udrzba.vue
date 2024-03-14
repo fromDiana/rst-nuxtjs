@@ -22,7 +22,7 @@ export default {
                 {
                     hid: 'description',
                     name: 'description',
-                    content: 'Komplexná údržba ako nových, tak starších zariadení',
+                    content: 'Komplexná údržba starších, ale aj novších zariadení',
                 },
                 {
                     hid: 'keywords',
@@ -30,6 +30,23 @@ export default {
                     content: 'údržba pc, údržba pocitac, profylaxia, prečistenie, prečistenie počítača, prepastovanie, výmena thermalpadov, prečistenie grafickej karty, prepastovanie notebooku, vysoká teplota počítača, vysoká teplota notebooku, pc maintenance, laptop maintenance, laptop cleaning, computer cleaning, repaste laptop, repaste pc, overheating computer, overheating laptop',
                 },
             ],
+            script: [
+                {
+                    type: 'application/ld+json',
+                    innerHTML: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "serviceType": "Údržba počítačov a notebookov",
+                        "provider": {
+                            "@type": "Organization",
+                            "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
+                        },
+                        "description": "Komplexná údržba starších, ale aj novších zariadení",
+                        "keywords": "údržba pc, údržba pocitac, profylaxia, prečistenie, prečistenie počítača, prepastovanie, výmena thermalpadov, prečistenie grafickej karty, prepastovanie notebooku, vysoká teplota počítača, vysoká teplota notebooku, pc maintenance, laptop maintenance, laptop cleaning, computer cleaning, repaste laptop, repaste pc, overheating computer, overheating laptop",
+                        "inLanguage": "sk",
+                    })
+                }
+            ]
         };
     },
     data() {

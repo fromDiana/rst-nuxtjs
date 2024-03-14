@@ -13,7 +13,7 @@
 
 <script>
 export default {
-    nme: 'DiagnosticsPage',
+    name: 'DiagnosticsPage',
     head() {
         return {
             title: 'Diagnostika',
@@ -29,6 +29,23 @@ export default {
                     content: 'diagnostika pocitaca, diagnostika notebooku, prehrievanie pocitaca, prehrievanie notebooku, prehrievanie grafickej karty, prehrievanie procesora, pc problem diagnosis, laptop problem diagnosis, pc overheating, laptop overheating, cpu overheating, gpu overheating',
                 },
             ],
+            script: [
+                {
+                    type: 'application/ld+json',
+                    innerHTML: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "serviceType": "Diagnostika počítačov, notebookov a iných zariadení",
+                        "provider": {
+                            "@type": "Organization",
+                            "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
+                        },
+                        "description": "Diagnostika počítačov, notebookov a iných zariadení",
+                        "keywords": "diagnostika pocitaca, diagnostika notebooku, prehrievanie pocitaca, prehrievanie notebooku, prehrievanie grafickej karty, prehrievanie procesora, pc problem diagnosis, laptop problem diagnosis, pc overheating, laptop overheating, cpu overheating, gpu overheating",
+                        "inLanguage": "sk",
+                    })
+                }
+            ]
         };
     },
     data() {

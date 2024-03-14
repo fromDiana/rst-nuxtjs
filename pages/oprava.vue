@@ -28,6 +28,23 @@ export default {
                     content: 'oprava pc, oprava pocitaca, oprava notebooku, servis pc, servis pocitaca, servis notebooku, repair laptop, repair computer',
                 },
             ],
+            script: [
+                {
+                    type: 'application/ld+json',
+                    innerHTML: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "serviceType": "Oprava počítačov, notebookov a iných zariadení",
+                        "provider": {
+                            "@type": "Organization",
+                            "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
+                        },
+                        "description": "Oprava počítačov a notebookov Košice",
+                        "keywords": "oprava pc, oprava pocitaca, oprava notebooku, servis pc, servis pocitaca, servis notebooku, repair laptop, repair computer",
+                        "inLanguage": "sk",
+                    })
+                }
+            ]
         };
     },
     data() {
