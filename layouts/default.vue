@@ -16,7 +16,7 @@ export default {
   head() {
     const ogImageURL = 'https://rst.sk/opengraphmeta.jpg'; // URL of your OpenGraph image
     return {
-      title: 'RST - Rýc hlejšie, spoľahlivejšie, tichšie',
+      title: 'RST - Rýchlejšie, spoľahlivejšie, tichšie',
       meta: [
         // Facebook Meta Tags
         { property: 'og:url', content: 'https://www.rst.sk' },
