@@ -43,8 +43,8 @@ export default {
   },
   // redirecting from old website
   middleware(context) {
-    console.log("middleware");
-    console.log(context.route.path);
+    // console.log("middleware");
+    // console.log(context.route.path);
     const oldPaths = ['/kontakty', '/slu%C5%BEby-servis-oprava-kosice',
       '/kto-sme-kosice', '/kontakty?lightbox=dataItem-kkx57qgh6',
       '/kontakty?lightbox=dataItem-kkx6l1ui'];

@@ -11,16 +11,16 @@
         <div :class="isNavigationVisible ? 'navigation navigation-visible' : 'navigation'"
             :style="{ 'transition': 'max-height ' + animationSpeed + ' ease-out' }">
 
-            <NuxtLink to="/#services" @click="closeNavigation" class="navigation-text-element">
+            <NuxtLink to="/#services" @click.native="closeNavigation" class="navigation-text-element">
                 {{ $t('navigationBar.sluzby') }}</NuxtLink>
 
-            <NuxtLink to="/#references" @click="closeNavigation" class="navigation-text-element">
+            <NuxtLink to="/#references" @click.native="closeNavigation" class="navigation-text-element">
                 {{ $t('navigationBar.referencie') }}</NuxtLink>
 
-            <NuxtLink to="/portfolio-pc-servis-kosice" @click="closeNavigation" class="navigation-text-element">
+            <NuxtLink to="/portfolio-pc-servis-kosice" @click.native="closeNavigation" class="navigation-text-element">
                 {{ $t('navigationBar.portfolio') }}</NuxtLink>
 
-            <NuxtLink to="/#about" @click="closeNavigation" class="navigation-text-element">
+            <NuxtLink to="/#about" @click.native="closeNavigation" class="navigation-text-element">
                 {{ $t('navigationBar.oMne') }}</NuxtLink>
         </div>
 
@@ -68,6 +68,7 @@ export default {
         },
         closeNavigation() {
             this.isNavigationVisible = false;
+            console.log('closeNavigation');
         },
         async loadDependencies() {
             const LanguageSwitcherModule = await import('@/components/LanguageSwitcher.vue');
