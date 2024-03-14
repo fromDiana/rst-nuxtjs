@@ -119,15 +119,15 @@ a {
 }
   /* Custom styles for H1 and H2 tags */
 .custom-h1 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .custom-h2 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
 }
 /* Custom styles for empty line */
 .empty-line {
-  height: 6px;
+  height: 0.5rem;
 }
 
 @media (max-width: 900px) {
