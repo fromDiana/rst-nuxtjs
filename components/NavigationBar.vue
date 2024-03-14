@@ -68,7 +68,6 @@ export default {
         },
         closeNavigation() {
             this.isNavigationVisible = false;
-            console.log('closeNavigation');
         },
         async loadDependencies() {
             const LanguageSwitcherModule = await import('@/components/LanguageSwitcher.vue');
