@@ -99,8 +99,8 @@ export default {
                 "telephone": "+421-948-600-109",
                 "contactType": "customer service",
                 "areaServed": "SK",
-                "availableLanguage": ["Slovak", "English"]
-              }
+                "availableLanguage": ["Slovak", "English"],
+              },
             ],
             "address": {
               "@type": "PostalAddress",
@@ -108,11 +108,11 @@ export default {
               "addressLocality": "Košice",
               "addressRegion": "Košický",
               "postalCode": "04011",
-              "addressCountry": "Slovakia"
-            }
-          })
-        }
-      ]
+              "addressCountry": "Slovakia",
+            },
+          }),
+        },
+      ],
     }
   },
   components: {
