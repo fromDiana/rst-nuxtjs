@@ -16,6 +16,18 @@
 <script>
 export default {
     head() {
+        const structuredScript = {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Zhotovenie počítača na mieru",
+            "provider": {
+                "@type": "Organization",
+                "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
+            },
+            "description": "Zhotovenie počítačov na mieru v Košiciach",
+            "keywords": "pocitac na mieru, skladanie pocitaca, tichy pocitac, spolahlivy pocitac, herny pocitac, custom built pc, silent pc, reliable pc, gaming pc",
+            "inLanguage": "sk",
+        }
         return {
             title: 'Počítač na mieru',
             meta: [
@@ -33,18 +45,7 @@ export default {
             script: [
                 {
                     type: 'application/ld+json',
-                    innerHTML: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Service",
-                        "serviceType": "Zhotovenie počítača na mieru",
-                        "provider": {
-                            "@type": "Organization",
-                            "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
-                        },
-                        "description": "Zhotovenie počítačov na mieru v Košiciach",
-                        "keywords": "pocitac na mieru, skladanie pocitaca, tichy pocitac, spolahlivy pocitac, herny pocitac, custom built pc, silent pc, reliable pc, gaming pc",
-                        "inLanguage": "sk",
-                    })
+                    json: structuredScript,
                 }
             ]
         };
@@ -66,5 +67,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

@@ -14,6 +14,18 @@
 <script>
 export default {
     head() {
+        const structuredScript = {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Oprava počítačov, notebookov a iných zariadení",
+            "provider": {
+                "@type": "Organization",
+                "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
+            },
+            "description": "Oprava počítačov a notebookov Košice",
+            "keywords": "oprava pc, oprava pocitaca, oprava notebooku, servis pc, servis pocitaca, servis notebooku, repair laptop, repair computer",
+            "inLanguage": "sk",
+        }
         return {
             title: 'Oprava počítačov, notebookov a iných zariadení',
             meta: [
@@ -31,18 +43,7 @@ export default {
             script: [
                 {
                     type: 'application/ld+json',
-                    innerHTML: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Service",
-                        "serviceType": "Oprava počítačov, notebookov a iných zariadení",
-                        "provider": {
-                            "@type": "Organization",
-                            "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
-                        },
-                        "description": "Oprava počítačov a notebookov Košice",
-                        "keywords": "oprava pc, oprava pocitaca, oprava notebooku, servis pc, servis pocitaca, servis notebooku, repair laptop, repair computer",
-                        "inLanguage": "sk",
-                    })
+                    json: structuredScript,
                 }
             ]
         };
@@ -64,5 +65,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

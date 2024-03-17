@@ -14,26 +14,34 @@
 
     <h1 class="main-page-buttons" id="services">
       <MainPageButton imageSrc="T_oprava_pocitacov a notebookov.png" text="mainPage.opravaPC"
-        :page="'oprava-pc-notebook-kosice'" topMargin="19rem" topMarginMobile="73%" alt="Oprava pocitacov a notebookov kosice"/>
+        :page="'oprava-pc-notebook-kosice'" topMargin="19rem" topMarginMobile="73%"
+        alt="Oprava pocitacov a notebookov kosice" />
       <MainPageButton imageSrc="T_Skladanie_02.png" text="mainPage.skladaniePC" :page="'pc-kosice'" topMargin="19rem"
-        topMarginMobile="73%" alt="Skladanie pocitacov kosice"/>
+        topMarginMobile="73%" alt="Skladanie pocitacov kosice" />
       <MainPageButton imageSrc="T_PC_Udrzba.png" text="navigationBar.udrzba" :page="'udrzba-pc-kosice'"
-        topMargin="19rem" topMarginMobile="73%" alt="Cistenie pocitacov a notebookov kosice"/>
+        topMargin="19rem" topMarginMobile="73%" alt="Cistenie pocitacov a notebookov kosice" />
     </h1>
     <SpacerComponent :space="'3rem'" />
     <h2 class="main-page-buttons">
-      <MainPageButton imageSrc="T_Diagnostika.png" text="mainPage.diagnostika" :page="'servis-pc-notebook-kosice'" alt="Diagnostika pocitacov a notebookov kosice"/>
-      <MainPageButton imageSrc="T_Notebooky.png" text="navigationBar.notebooky" :page="'notebook-kosice'" alt="repasovanie notebookov kosice"/>
-      <MainPageButton imageSrc="T_Portfólio.png" text="navigationBar.portfolio" :page="'portfolio-pc-servis-kosice'" alt="Portfolio oprava pc kosice"/>
+      <MainPageButton imageSrc="T_Diagnostika.png" text="mainPage.diagnostika" :page="'servis-pc-notebook-kosice'"
+        alt="Diagnostika pocitacov a notebookov kosice" />
+      <MainPageButton imageSrc="T_Notebooky.png" text="navigationBar.notebooky" :page="'notebook-kosice'"
+        alt="repasovanie notebookov kosice" />
+      <MainPageButton imageSrc="T_Portfólio.png" text="navigationBar.portfolio" :page="'portfolio-pc-servis-kosice'"
+        alt="Portfolio oprava pc kosice" />
     </h2>
 
     <SpacerComponent :space="'5rem'" />
 
     <div id="references" class="partners">
-      <PartnerComponent image="game_days.png" text="partners.gameDays" page="gamedays.sk" alt="Logo Game Days konferencia"/>
-      <PartnerComponent image="games_farm.png" text="partners.gamesFarm" page="games-farm.com" alt="Logo herneho studia Games Farm"/>
-      <PartnerComponent image="triple_hill.png" text="partners.tripleHill" page="triple-hill.com" alt="Logo herneho studia Triple Hill"/>
-      <PartnerComponent image="3dvision.png" text="partners.threeDVision" page="3division.sovietrepublic.net" alt="Logo herneho studia 3dvision"/>
+      <PartnerComponent image="game_days.png" text="partners.gameDays" page="gamedays.sk"
+        alt="Logo Game Days konferencia" />
+      <PartnerComponent image="games_farm.png" text="partners.gamesFarm" page="games-farm.com"
+        alt="Logo herneho studia Games Farm" />
+      <PartnerComponent image="triple_hill.png" text="partners.tripleHill" page="triple-hill.com"
+        alt="Logo herneho studia Triple Hill" />
+      <PartnerComponent image="3dvision.png" text="partners.threeDVision" page="3division.sovietrepublic.net"
+        alt="Logo herneho studia 3dvision" />
     </div>
 
     <SpacerComponent :space="'5rem'" />
@@ -47,10 +55,10 @@
         <p><a href="mailto:rst@rst.sk">rst@rst.sk</a></p>
         <div class="social-icons">
           <a href="https://www.facebook.com/rstskservis" target="_blank">
-            <img src="@/assets/facebook.png" class="icon" alt="Facebook kontakt rst"/>
+            <img src="@/assets/facebook.png" class="icon" alt="Facebook kontakt rst" />
           </a>
           <a href="https://www.instagram.com/rstskservis/" target="_blank">
-            <img src="@/assets/instagram.png" class="icon" alt="Instagram kontakt rst"/>
+            <img src="@/assets/instagram.png" class="icon" alt="Instagram kontakt rst" />
           </a>
         </div>
         <p>+421 948 600 109</p>
@@ -65,34 +73,34 @@
 export default {
   head() {
     const structuredData = {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie",
-        "url": "https://www.rst.sk",
-        "logo": "https://www.rst.sk/_nuxt/img/T_RST_LOGO_06.9b43811.png",
-        "description": "Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.",
-        "keywords": "pc, pocitac, servis, kosice, košice, oprava, notebook, zostava, skladanie, rýchlejšie, spoľahlivejšie, tichšie, rýchlejšie spoľahlivejšie tichšie, rst, rstservis, rst.sk, rst servis, rst.sk servis, rst.sk servis košice, rst.sk košice, rst.sk servis pc košice, rst.sk servis",
-        "sameAs": [
-          "https://www.facebook.com/rstskservis",
-          "https://www.instagram.com/rstskservis/",
-        ],
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "telephone": "+421-948-600-109",
-            "contactType": "customer service",
-            "areaServed": "SK",
-            "availableLanguage": ["Slovak", "English"],
-          },
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Popradská 82",
-          "addressLocality": "Košice",
-          "addressRegion": "Košický",
-          "postalCode": "04011",
-          "addressCountry": "Slovakia",
-        }
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie",
+      "url": "https://www.rst.sk",
+      "logo": "https://www.rst.sk/_nuxt/img/T_RST_LOGO_06.9b43811.png",
+      "description": "Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.",
+      "keywords": "pc, pocitac, servis, kosice, košice, oprava, notebook, zostava, skladanie, rýchlejšie, spoľahlivejšie, tichšie, rýchlejšie spoľahlivejšie tichšie, rst, rstservis, rst.sk, rst servis, rst.sk servis, rst.sk servis košice, rst.sk košice, rst.sk servis pc košice, rst.sk servis",
+      "sameAs": [
+        "https://www.facebook.com/rstskservis",
+        "https://www.instagram.com/rstskservis/",
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+421-948-600-109",
+          "contactType": "customer service",
+          "areaServed": "SK",
+          "availableLanguage": ["Slovak", "English"],
+        },
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Popradská 82",
+        "addressLocality": "Košice",
+        "addressRegion": "Košický",
+        "postalCode": "04011",
+        "addressCountry": "Slovakia",
+      }
     }
     return {
       title: 'RST - Rýchlejšie, spoľahlivejšie, tichšie',

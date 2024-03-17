@@ -16,6 +16,14 @@
 <script>
 export default {
     head() {
+        const sctructuredScript = {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Notebooky",
+            "description": "Nový alebo starý notebook, na všetko sa u nás nájde riešenie",
+            "keywords": "oprava laptopu, oprava notebooku, prehrievanie notebooku, hlucny notebook, prach v notebooku, repair laptop, noisy laptop, dusty laptop, cleaning laptop",
+            "inLanguage": "sk",
+        }
         return {
             title: 'Notebooky',
             meta: [
@@ -33,14 +41,7 @@ export default {
             script: [
                 {
                     type: 'application/ld+json',
-                    innerHTML: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Product",
-                        "name": "Notebooky",
-                        "description": "Nový alebo starý notebook, na všetko sa u nás nájde riešenie",
-                        "keywords": "oprava laptopu, oprava notebooku, prehrievanie notebooku, hlucny notebook, prach v notebooku, repair laptop, noisy laptop, dusty laptop, cleaning laptop",
-                        "inLanguage": "sk",
-                    })
+                    json: sctructuredScript,
                 }
             ]
         };
@@ -62,5 +63,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

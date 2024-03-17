@@ -15,6 +15,18 @@
 export default {
     name: 'DiagnosticsPage',
     head() {
+        const structuredScript = {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Diagnostika počítačov, notebookov a iných zariadení",
+            "provider": {
+                "@type": "Organization",
+                "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
+            },
+            "description": "Diagnostika počítačov, notebookov a iných zariadení",
+            "keywords": "diagnostika pocitaca, diagnostika notebooku, prehrievanie pocitaca, prehrievanie notebooku, prehrievanie grafickej karty, prehrievanie procesora, pc problem diagnosis, laptop problem diagnosis, pc overheating, laptop overheating, cpu overheating, gpu overheating",
+            "inLanguage": "sk",
+        }
         return {
             title: 'Diagnostika',
             meta: [
@@ -32,18 +44,7 @@ export default {
             script: [
                 {
                     type: 'application/ld+json',
-                    innerHTML: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Service",
-                        "serviceType": "Diagnostika počítačov, notebookov a iných zariadení",
-                        "provider": {
-                            "@type": "Organization",
-                            "name": "RST - Rýchlejšie, spoľahlivejšie, tichšie"
-                        },
-                        "description": "Diagnostika počítačov, notebookov a iných zariadení",
-                        "keywords": "diagnostika pocitaca, diagnostika notebooku, prehrievanie pocitaca, prehrievanie notebooku, prehrievanie grafickej karty, prehrievanie procesora, pc problem diagnosis, laptop problem diagnosis, pc overheating, laptop overheating, cpu overheating, gpu overheating",
-                        "inLanguage": "sk",
-                    })
+                    json: structuredScript,
                 }
             ]
         };
@@ -65,5 +66,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
