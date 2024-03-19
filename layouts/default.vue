@@ -1,10 +1,10 @@
 <template>
-    <div>
-        <NavigationBar />
-        <Nuxt />
-        <!-- <CookiePopup /> -->
-        <FooterComponent />
-    </div>
+  <div>
+    <NavigationBar />
+    <Nuxt />
+    <!-- <CookiePopup /> -->
+    <FooterComponent />
+  </div>
 </template>
 
 <script>
@@ -33,12 +33,20 @@ export default {
         { name: 'twitter:description', content: 'Oprava počítačov a notebookov. Skladanie počítačových zostáv na mieru. Diagnostika problémov so zostavami či komponentami.' },
         { name: 'twitter:image', content: ogImageURL }, // Added twitter:image meta tag
       ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://rst.sk' + this.$route.path + '/',
-        },
-      ],
+      link: this.$route.path === '/'
+        ? [
+          {
+            rel: 'canonical',
+            href: 'https://rst.sk',
+          },
+        ]
+        : [
+          {
+            rel: 'canonical',
+            href: 'https://rst.sk' + this.$route.path + '/',
+          },
+        ],
+
     }
   },
   // redirecting from old website
@@ -59,89 +67,92 @@ export default {
 <style>
 html,
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background-image: url('assets/T_Background.jpg');
-    background-size: cover;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Poppins", sans-serif !important;
-    font-style: normal;
-    font-style: normal;
-    color: white;
-    -webkit-user-select: none;
-    /* Safari */
-    -moz-user-select: none;
-    /* Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    user-select: none;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-image: url('assets/T_Background.jpg');
+  background-size: cover;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
+  font-style: normal;
+  color: white;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
 }
 
 .top-offset {
-    margin-top: 8rem;
+  margin-top: 8rem;
 }
 
 .centered-text {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    padding: 10rem 20vw;
-    text-align: justify;
-    min-height: 58vh;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 10rem 20vw;
+  text-align: justify;
+  min-height: 58vh;
 }
 
 .centered-text div {
-    width: 60%;
+  width: 60%;
 }
 
 .page-button .main-page-button-text {
-    font-size: 1.4rem !important;
+  font-size: 1.4rem !important;
 }
 
 .page-button {
-    width: 15rem !important;
+  width: 15rem !important;
 }
-  /* Custom styles for H1 and H2 tags */
+
+/* Custom styles for H1 and H2 tags */
 .custom-h1 {
   font-size: 1rem;
 }
+
 .custom-h2 {
   font-size: 1rem;
   font-weight: normal;
 }
+
 /* Custom styles for empty line */
 .empty-line {
   height: 0.5rem;
 }
 
 @media (max-width: 900px) {
-    .centered-text {
-        padding: 10rem 2rem;
-        text-align: center;
-    }
+  .centered-text {
+    padding: 10rem 2rem;
+    text-align: center;
+  }
 
-    .centered-text div {
-        width: 100%;
-    }
+  .centered-text div {
+    width: 100%;
+  }
 
-    .centered-text .page-button {
-        display: none !important;
-    }
+  .centered-text .page-button {
+    display: none !important;
+  }
 }
 </style>
