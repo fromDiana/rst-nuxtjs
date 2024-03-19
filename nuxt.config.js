@@ -18,6 +18,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
   },
+  // mordern: 'client',
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -35,22 +36,6 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
   ],
-  build: {
-    extend(config, { isDev, isClient }) {
-      if (isClient) {
-        const babelOptions = {
-          presets: [
-            [
-              '@nuxt/babel-preset-app',
-              {
-                targets: isDev ? { chrome: 'last 2 versions' } : { ie: 11 }
-              }
-            ]
-          ]
-        };
-      }
-    }
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
