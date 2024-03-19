@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'RST',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'sk'
     },
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
