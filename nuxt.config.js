@@ -103,11 +103,6 @@ export default {
           component: resolve(__dirname, 'pages/portfolio.vue'),
         },
         {
-          name: 'privacy-policy',
-          path: '/privacy-policy/',
-          component: resolve(__dirname, 'pages/privacy-policy.vue'),
-        },
-        {
           name: 'skladanie',
           path: '/pc-kosice/',
           component: resolve(__dirname, 'pages/skladanie.vue'),
