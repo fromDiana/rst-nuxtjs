@@ -70,6 +70,7 @@ export default {
       if (!this.page) {
         return;
       }
+      console.log("Navigating to: " + this.page);
       this.$router.push(this.page);
     },
     handleResize() {

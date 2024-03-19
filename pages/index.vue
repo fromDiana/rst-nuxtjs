@@ -14,20 +14,20 @@
 
     <h1 class="main-page-buttons" id="services">
       <MainPageButton imageSrc="T_oprava_pocitacov a notebookov.png" text="mainPage.opravaPC"
-        :page="'oprava-pc-notebook-kosice'" topMargin="19rem" topMarginMobile="73%"
+        :page="'oprava-pc-notebook-kosice/'" topMargin="19rem" topMarginMobile="73%"
         alt="Oprava pocitacov a notebookov kosice" />
-      <MainPageButton imageSrc="T_Skladanie_02.png" text="mainPage.skladaniePC" :page="'pc-kosice'" topMargin="19rem"
+      <MainPageButton imageSrc="T_Skladanie_02.png" text="mainPage.skladaniePC" :page="'pc-kosice/'" topMargin="19rem"
         topMarginMobile="73%" alt="Skladanie pocitacov kosice" />
-      <MainPageButton imageSrc="T_PC_Udrzba.png" text="navigationBar.udrzba" :page="'udrzba-pc-kosice'"
+      <MainPageButton imageSrc="T_PC_Udrzba.png" text="navigationBar.udrzba" :page="'udrzba-pc-kosice/'"
         topMargin="19rem" topMarginMobile="73%" alt="Cistenie pocitacov a notebookov kosice" />
     </h1>
     <SpacerComponent :space="'3rem'" />
     <h2 class="main-page-buttons">
-      <MainPageButton imageSrc="T_Diagnostika.png" text="mainPage.diagnostika" :page="'servis-pc-notebook-kosice'"
+      <MainPageButton imageSrc="T_Diagnostika.png" text="mainPage.diagnostika" :page="'servis-pc-notebook-kosice/'"
         alt="Diagnostika pocitacov a notebookov kosice" />
-      <MainPageButton imageSrc="T_Notebooky.png" text="navigationBar.notebooky" :page="'notebook-kosice'"
+      <MainPageButton imageSrc="T_Notebooky.png" text="navigationBar.notebooky" :page="'notebook-kosice/'"
         alt="repasovanie notebookov kosice" />
-      <MainPageButton imageSrc="T_Portfólio.png" text="navigationBar.portfolio" :page="'portfolio-pc-servis-kosice'"
+      <MainPageButton imageSrc="T_Portfólio.png" text="navigationBar.portfolio" :page="'portfolio-pc-servis-kosice/'"
         alt="Portfolio oprava pc kosice" />
     </h2>
 

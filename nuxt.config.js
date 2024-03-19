@@ -63,37 +63,37 @@ export default {
       routes.push(
         {
           name: 'diagnostika',
-          path: '/servis-pc-notebook-kosice',
+          path: '/servis-pc-notebook-kosice/',
           component: resolve(__dirname, 'pages/diagnostika.vue'),
         },
         {
           name: 'notebook',
-          path: '/notebook-kosice',
+          path: '/notebook-kosice/',
           component: resolve(__dirname, 'pages/notebook.vue'),
         },
         {
           name: 'oprava',
-          path: '/oprava-pc-notebook-kosice',
+          path: '/oprava-pc-notebook-kosice/',
           component: resolve(__dirname, 'pages/oprava.vue'),
         },
         {
           name: 'portfolio',
-          path: '/portfolio-pc-servis-kosice',
+          path: '/portfolio-pc-servis-kosice/',
           component: resolve(__dirname, 'pages/portfolio.vue'),
         },
         {
           name: 'privacy-policy',
-          path: '/privacy-policy',
+          path: '/privacy-policy/',
           component: resolve(__dirname, 'pages/privacy-policy.vue'),
         },
         {
           name: 'skladanie',
-          path: '/pc-kosice',
+          path: '/pc-kosice/',
           component: resolve(__dirname, 'pages/skladanie.vue'),
         },
         {
           name: 'udrzba',
-          path: '/udrzba-pc-kosice',
+          path: '/udrzba-pc-kosice/',
           component: resolve(__dirname, 'pages/udrzba.vue'),
         },
       )

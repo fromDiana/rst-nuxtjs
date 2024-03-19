@@ -17,7 +17,7 @@
             <NuxtLink to="/#references" @click.native="closeNavigation" class="navigation-text-element">
                 {{ $t('navigationBar.referencie') }}</NuxtLink>
 
-            <NuxtLink to="/portfolio-pc-servis-kosice" @click.native="closeNavigation" class="navigation-text-element">
+            <NuxtLink to="/portfolio-pc-servis-kosice/" @click.native="closeNavigation" class="navigation-text-element">
                 {{ $t('navigationBar.portfolio') }}</NuxtLink>
 
             <NuxtLink to="/#about" @click.native="closeNavigation" class="navigation-text-element">
