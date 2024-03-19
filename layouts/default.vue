@@ -36,7 +36,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://rst.sk' + this.$route.path,
+          href: 'https://rst.sk' + this.$route.path + '/',
         },
       ],
     }

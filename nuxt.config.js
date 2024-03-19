@@ -62,6 +62,11 @@ export default {
     extendRoutes(routes, resolve) {
       routes.push(
         {
+          name: 'index',
+          path: '/',
+          component: resolve(__dirname, 'pages/index.vue'),
+        },
+        {
           name: 'diagnostika',
           path: '/servis-pc-notebook-kosice/',
           component: resolve(__dirname, 'pages/diagnostika.vue'),
