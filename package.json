@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build:modern": "webpack --config webpack.modern.config.js",
+    "build:legacy": "webpack --config webpack.legacy.config.js",
+    "build": "npm run build:modern && npm run build:legacy",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
@@ -20,5 +22,8 @@
     "vue-i18n": "^8.28.2",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.1"
   }
 }
