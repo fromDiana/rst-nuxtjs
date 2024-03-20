@@ -1,7 +1,7 @@
 <template>
     <div class="centered-text">
         <MainPageButton imageSrc="T_oprava_pocitacov a notebookov.png" text="mainPage.opravaPC"
-            :page="'oprava-pc-notebook-kosice'" topMargin="73%" :doHoverAnimation="false" class="page-button" />
+            :page=null topMargin="73%" :doHoverAnimation="false" class="page-button" />
         <div>
             <h1 class="repairPage custom-h1">{{ $t("repairPage.p1") }}</h1>
             <div class="empty-line"></div>

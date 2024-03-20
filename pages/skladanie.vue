@@ -1,6 +1,6 @@
 <template>
     <div class="centered-text">
-        <MainPageButton imageSrc="T_Skladanie_02.png" text="mainPage.skladaniePC" :page="'pc-kosice'" topMargin="73%"
+        <MainPageButton imageSrc="T_Skladanie_02.png" text="mainPage.skladaniePC" :page=null topMargin="73%"
             :doHoverAnimation="false" class="page-button" />
         <div>
             <h1 class="computerPage custom-h1">{{ $t("computerPage.p1") }}</h1>

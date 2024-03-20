@@ -2,7 +2,7 @@
   <div class="main-page-button" @mouseover="hover = true" @mouseleave="hover = false" @click="navigate">
     <img :src="require('@/assets/' + imageSrc)" class="main-page-button-image" :alt="alt">
     <img v-if="doHoverAnimation" :src="require('@/assets/T_Hover.png')" class="main-page-button-hover" alt="hover_overlay">
-    <div class="main-page-button-text" :style="textStyle">{{ translatedText }}</div>
+    <div :class='doHoverAnimation ? "main-page-button-text" : "main-page-button-text text-no-hover"' :style="textStyle">{{ translatedText }}</div>
   </div>
 </template>  
   
@@ -19,7 +19,7 @@ export default {
     },
     page: {
       type: String,
-      required: true,
+      required: false,
     },
     topMargin: {
       type: String,
@@ -120,6 +120,10 @@ export default {
   line-height: 150%;
   /* letter-spacing: -5%; */
   cursor: pointer;
+}
+
+.text-no-hover {
+  cursor: default !important;
 }
 
 @media (max-width: 900px) {
