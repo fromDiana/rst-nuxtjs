@@ -101,6 +101,7 @@ export default {
         },
     },
     mounted() {
+        window.scrollTo(0, 0);
         this.loadDependencies();
         this.loadPostsData();
         window.addEventListener('scroll', this.handleScroll);
