@@ -101,7 +101,8 @@ export default {
         },
     },
     mounted() {
-        window.scrollTo(0, 0);
+        console.log(document.documentElement.scrollTop, window.innerHeight, document.documentElement.offsetHeight);
+        console.log('Portfolio page mounted');
         this.loadDependencies();
         this.loadPostsData();
         window.addEventListener('scroll', this.handleScroll);
@@ -112,7 +113,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .posts {
     display: flex;
     flex-wrap: wrap;
