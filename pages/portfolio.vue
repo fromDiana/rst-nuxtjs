@@ -86,8 +86,8 @@ export default {
             }
         },
         handleScroll() {
-            let bottomOfWindow = document.documentElement.scrollTop + window.innerHeight === document.documentElement.offsetHeight;
-            if (bottomOfWindow) {
+            let bottomHalfOfWindow = document.documentElement.scrollTop + window.innerHeight >= document.documentElement.offsetHeight - window.innerHeight / 2;
+            if (bottomHalfOfWindow) {
                 this.loadMorePosts();
             }
         },
