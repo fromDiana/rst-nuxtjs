@@ -68,8 +68,9 @@ export default {
         async loadMorePosts() {
             let nextIndex = this.postsData.length + 1;
             let endIndex = nextIndex + 10; // load 10 more posts
-            if (endIndex > 15) {
-                endIndex = 15; // Limit 15 posts
+            let maxPosts = 15; // change this to the total number of posts
+            if (endIndex > maxPosts) {
+                endIndex = maxPosts;
             }
             for (let i = nextIndex; i < endIndex; i++) {
                 try {
