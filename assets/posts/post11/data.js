@@ -1,26 +1,22 @@
 export default {
     sk: {
-      title: "Ryzen7 5800X, 32GB, Nvidia 2070",
-      date: "2020-06-10",
-      description: "Vyladený BIOS a ovládače, to je už samozrejmosť. Pomoc na diaľku, to je to čo z našeho pohľadu pomôže zákazníkovy najviac, aj dnes sme hneď po zákazníkovom príchode domov pomohli s páru drobnosťami a už si bezstarostne užíva assassin's creed valhalla. ",
+      title: "Malinké PC vhodné na kancelársku prácu",
+      date: "2022-05-05",
+      description: "Tento malý PC bol vyslovene zostavený na tichú a úspornú prevádzku pre kancelárske využitie. Banana for scale.",
       images: [
-          { name: "image1.jpg", alt: "tichy pc" },
-          { name: "image2.jpg", alt: "ticha pc zostava" },
-          { name: "image3.jpg", alt: "noctua" },
-          { name: "image4.jpg", alt: "herna graficka karta" },
-          { name: "image5.jpg", alt: "chladenie ventilatormi" },
+          { name: "image1.jpg", alt: "Maly pocitac" },
+          { name: "image2.jpg", alt: "usporny pocitac" },
+          { name: "image3.jpg", alt: "banana for scale" },
       ]
     },
     en: {
-      title: "Ryzen7 5800X, 32GB, Nvidia 2070",
-      date: "2020-06-10",
-      description: "Tuned BIOS and drivers are already a given. Remote assistance is what, from our perspective, helps the customer the most. Today, as soon as the customer arrived home, we helped with a couple of minor issues, and now they are enjoying Assassin's Creed Valhalla carefree.",
+      title: "Small PC suitable for office work",
+      date: "2022-05-05",
+      description: "This small PC was specifically assembled for quiet and efficient operation for office use. Banana for scale.",
       images: [
-          { name: "image1.jpg", alt: "silent custom pc" },
-          { name: "image2.jpg", alt: "silent computer" },
-          { name: "image3.jpg", alt: "noctua" },
-          { name: "image4.jpg", alt: "gaming gpu" },
-          { name: "image5.jpg", alt: "cooling fans" },
+          { name: "image1.jpg", alt: "Mini custom built pc" },
+          { name: "image2.jpg", alt: "power efficient pc" },
+          { name: "image3.jpg", alt: "banana for scale" },
       ]
     }
   };

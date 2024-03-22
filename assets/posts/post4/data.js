@@ -1,24 +1,28 @@
 export default {
     sk: {
-      title: "Intel i5, 16GB ram, RX6700XT",
-      date: "2023-11-10",
-      description: "Jednoduchšia herná zostava ktorá ale neurazí ani svojim vzhľadom ani výkonom.",
+      title: "Vylepšenie WACOM tabletu",
+      date: "2023-12-04",
+      description: "Prečistený, prepastovaný a upgradnutý na 32GB ram + 1TB SSD",
       images: [
-          { name: "image1.jpg", alt: "RGB herna zostava" },
-          { name: "image2.jpg", alt: "herny pocitac" },
-          { name: "image3.jpg", alt: "tichy herny pocitac" },
-          { name: "image4.jpg", alt: "tuning pocitac" },
+          { name: "image1.jpg", alt: "rozobratie wacom tabletu" },
+          { name: "image2.jpg", alt: "cistenie wacom chladenia" },
+          { name: "image3.jpg", alt: "prepastovanie wacom tabletu" },
+          { name: "image4.jpg", alt: "rozsirenie ram wacom" },
+          { name: "image5.jpg", alt: "cistenie chladenia" },
+          { name: "image6.jpg", alt: "repasovany wacom" },
       ]
     },
     en: {
-      title: "White and RGB, again?",
-      date: "2023-11-10",
-      description: "A simpler gaming setup that won't disappoint in either looks or performance.",
+      title: "WACOM tablet upgrade",
+      date: "2023-12-04",
+      description: "Cleaned, repasted, and upgraded to 32GB RAM + 1TB SSD",
       images: [
-          { name: "image1.jpg", alt: "RGB gaming pc" },
-          { name: "image2.jpg", alt: "gaming computer" },
-          { name: "image3.jpg", alt: "silent gaming pc" },
-          { name: "image4.jpg", alt: "tuning computer" },
+          { name: "image1.jpg", alt: "disassembly of wacom tablet" },
+          { name: "image2.jpg", alt: "cleaning wacom cooling" },
+          { name: "image3.jpg", alt: "overheating wacom tablet" },
+          { name: "image4.jpg", alt: "ram upgrade wacom tablet" },
+          { name: "image5.jpg", alt: "Cooling cleaning" },
+          { name: "image6.jpg", alt: "renewed wacom" },
       ]
     }
   };

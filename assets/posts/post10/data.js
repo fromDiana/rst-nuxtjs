@@ -1,22 +1,24 @@
 export default {
     sk: {
-      title: "Malinké PC vhodné na kancelársku prácu",
-      date: "2022-05-05",
-      description: "Tento malý PC bol vyslovene zostavený na tichú a úspornú prevádzku pre kancelárske využitie. Banana for scale.",
+      title: "Apple plný prachu",
+      date: "2022-05-10",
+      description: "Aj o MacBook sa sem tam treba postarať. Najmä ak používate svoj notebook v posteli alebo na kolenách a podobne.",
       images: [
-          { name: "image1.jpg", alt: "Maly pocitac" },
-          { name: "image2.jpg", alt: "usporny pocitac" },
-          { name: "image3.jpg", alt: "banana for scale" },
+          { name: "image1.jpg", alt: "Cistenie apple notebooku" },
+          { name: "image2.jpg", alt: "cistenie macbooku" },
+          { name: "image3.jpg", alt: "prehrievanie macbooku" },
+          { name: "image4.jpg", alt: "prehrievanie apple" },
       ]
     },
     en: {
-      title: "Small PC suitable for office work",
-      date: "2022-05-05",
-      description: "This small PC was specifically assembled for quiet and efficient operation for office use. Banana for scale.",
+      title: "Dusty MacBook",
+      date: "2022-05-10",
+      description: "Even a MacBook needs some care from time to time. Especially if you use your laptop in bed or on your lap, and so on.",
       images: [
-          { name: "image1.jpg", alt: "Mini custom built pc" },
-          { name: "image2.jpg", alt: "power efficient pc" },
-          { name: "image3.jpg", alt: "banana for scale" },
+          { name: "image1.jpg", alt: "Apple laptop cleaning" },
+          { name: "image2.jpg", alt: "MacBook cleaning" },
+          { name: "image3.jpg", alt: "overheating MacBook" },
+          { name: "image4.jpg", alt: "overheating Apple" },
       ]
     }
   };
