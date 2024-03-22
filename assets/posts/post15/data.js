@@ -1,22 +1,24 @@
 export default {
     sk: {
-      title: "Prepastovanie grafickej karty",
-      date: "2020-02-30",
-      description: "Tejto Nvidia GTX 1080Ti sa po zákroku teploty znížili o 10°c. Veríme že bude naďalej slúžiť ako sa patrí na plný výkon s príjemnými teplotami a tichým chodom.",
+      title: "Dell s hlučným ventilátorom",
+      date: "2020-02-14",
+      description: "Dnes nás čakal hrkajúci DELL. Naštastie sa jednalo iba o ventilátor. No, bola potrebná 100% istota a teda sa šlo do komplexnej diagnostiky.",
       images: [
-          { name: "image1.jpg", alt: "Prepastovanie grafickej karty" },
-          { name: "image2.jpg", alt: "Prehrievanie grafickej karty" },
-          { name: "image3.jpg", alt: "znizenie teplot grafickej karty" },
+          { name: "image1.jpg", alt: "prepastovanie notebooku" },
+          { name: "image2.jpg", alt: "cistenie notebooku" },
+          { name: "image3.jpg", alt: "prehrievanie notebooku" },
+          { name: "image4.jpg", alt: "prehrievanie DELL" },
       ]
     },
     en: {
-      title: "Repasting the graphics card",
-      date: "2020-02-30",
-      description: "After this intervention, the temperatures of this Nvidia GTX 1080Ti decreased by 10°C. We believe it will continue to perform as expected, with pleasant temperatures and quiet operation.",
+      title: "Dell with a noisy fan",
+      date: "2020-02-14",
+      description: "Today we encountered a noisy DELL. Fortunately, it was only the fan. However, 100% certainty was needed, so we proceeded with a comprehensive diagnosis.",
       images: [
-          { name: "image1.jpg", alt: "re-pasting graphics card" },
-          { name: "image2.jpg", alt: "overheating graphics card" },
-          { name: "image3.jpg", alt: "lowering temps graphics card" },
+          { name: "image1.jpg", alt: "laptop re-paste" },
+          { name: "image2.jpg", alt: "cleaning laptop" },
+          { name: "image3.jpg", alt: "overheating laptop" },
+          { name: "image4.jpg", alt: "overheating DELL" },
       ]
     }
   };

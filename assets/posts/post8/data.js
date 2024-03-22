@@ -1,24 +1,22 @@
 export default {
     sk: {
-      title: "Čierno-biela s RGB",
+      title: "Vysušená teplovodivá pasta? Prach?",
       date: "2022-02-21",
-      description: "Veľmi výrazná a zaujimavá konfigurácia. Celé podsvietenie (RAM, GPU, Fany) je ovládané cez ASUS Aura Sync a teda si vie zákazník jedným klikom meniť farby na celom PC.",
+      description: "Dodržiavanie intervalov čistenia a prepastovania pomôže vašemu počítaču udržať si výkon a zároveň, mu predlžujete obdobie spoľahlivého chodu.",
       images: [
-          { name: "image1.jpg", alt: "Fialovo biela herna zostava" },
-          { name: "image2.jpg", alt: "Herna zostava s podsvietenim biela fialova" },
-          { name: "image3.jpg", alt: "Herny pocitac s podsvietenim biela fialova" },
-          { name: "image4.jpg", alt: "Pocitac s podsvietenim a kablami na mieru" },
+          { name: "image1.jpg", alt: "procesor sucha teplovodiva pasta prehrievanie" },
+          { name: "image2.jpg", alt: "graficka karta sucha teplovodiva pasta prehrievanie" },
+          { name: "image3.jpg", alt: "prach v pocitaci prehrievanie" },
       ]
     },
     en: {
-      title: "Black and white with RGB",
+      title: "Dried thermal paste? Dust?",
       date: "2022-02-21",
-      description: "A very distinctive and interesting configuration. The entire lighting (RAM, GPU, fans) is controlled through ASUS Aura Sync, allowing the customer to change colors across the entire PC with just one click.",
+      description: "Adhering to cleaning and repasting intervals helps your computer maintain its performance and, at the same time, extends the period of reliable operation.",
       images: [
-          { name: "image1.jpg", alt: "White-purple gaming computer" },
-          { name: "image2.jpg", alt: "gaming computer with purple backlight" },
-          { name: "image3.jpg", alt: "custom built computer with purple backlight" },
-          { name: "image4.jpg", alt: "Custom build computer with backlight and custom cables" },
+          { name: "image1.jpg", alt: "dry thermalpaste on processor overheating" },
+          { name: "image2.jpg", alt: "dry thermalpaste in graphics card overheating" },
+          { name: "image3.jpg", alt: "dust in a computer overheating" },
       ]
     }
   };

@@ -1,24 +1,24 @@
 export default {
     sk: {
-      title: "Threadripper 3970X",
-      date: "2021-08-30",
-      description: "Threadripper 3970X od AMD nie je to najjednoduchšie na uchladenie ale s touto perfektnou skrinkou a slušnou nádielkou Noctua fanov sme to zvládli skoro nepočuteľne.",
+      title: "Čierno-biela s RGB",
+      date: "2022-02-21",
+      description: "Veľmi výrazná a zaujimavá konfigurácia. Celé podsvietenie (RAM, GPU, Fany) je ovládané cez ASUS Aura Sync a teda si vie zákazník jedným klikom meniť farby na celom PC.",
       images: [
-          { name: "image1.jpg", alt: "Pracovna stanica na mieru" },
-          { name: "image2.jpg", alt: "Pracovna stanica" },
-          { name: "image3.jpg", alt: "Ticha pracovna stanica" },
-          { name: "image4.jpg", alt: "Spolahliva pracovna stanica" },
+          { name: "image1.jpg", alt: "Fialovo biela herna zostava" },
+          { name: "image2.jpg", alt: "Herna zostava s podsvietenim biela fialova" },
+          { name: "image3.jpg", alt: "Herny pocitac s podsvietenim biela fialova" },
+          { name: "image4.jpg", alt: "Pocitac s podsvietenim a kablami na mieru" },
       ]
     },
     en: {
-      title: "Threadripper 3970X",
-      date: "2021-08-30",
-      description: "The AMD Threadripper 3970X isn't the easiest to cool, but with this perfect case and a decent supply of Noctua fans, we managed to do it almost inaudibly.",
+      title: "Black and white with RGB",
+      date: "2022-02-21",
+      description: "A very distinctive and interesting configuration. The entire lighting (RAM, GPU, fans) is controlled through ASUS Aura Sync, allowing the customer to change colors across the entire PC with just one click.",
       images: [
-          { name: "image1.jpg", alt: "Custom workstation" },
-          { name: "image2.jpg", alt: "workstation" },
-          { name: "image3.jpg", alt: "Silent workstation" },
-          { name: "image4.jpg", alt: "reliable workstation" },
+          { name: "image1.jpg", alt: "White-purple gaming computer" },
+          { name: "image2.jpg", alt: "gaming computer with purple backlight" },
+          { name: "image3.jpg", alt: "custom built computer with purple backlight" },
+          { name: "image4.jpg", alt: "Custom build computer with backlight and custom cables" },
       ]
     }
   };

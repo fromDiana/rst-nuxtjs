@@ -1,22 +1,24 @@
 export default {
     sk: {
-      title: "Vysušená teplovodivá pasta? Prach?",
-      date: "2022-02-21",
-      description: "Dodržiavanie intervalov čistenia a prepastovania pomôže vašemu počítaču udržať si výkon a zároveň, mu predlžujete obdobie spoľahlivého chodu.",
+      title: "Biela a RGB, zas?",
+      date: "2023-02-10",
+      description: "Biela farba s RGB podsvietením sa zatiaľ neokukala. Nespornou výhodou je možnosť nastavenia podsvietenia v celom spektre.",
       images: [
-          { name: "image1.jpg", alt: "procesor sucha teplovodiva pasta prehrievanie" },
-          { name: "image2.jpg", alt: "graficka karta sucha teplovodiva pasta prehrievanie" },
-          { name: "image3.jpg", alt: "prach v pocitaci prehrievanie" },
+          { name: "image1.jpg", alt: "RGB herny pocitac" },
+          { name: "image2.jpg", alt: "podsvieteny herny" },
+          { name: "image3.jpg", alt: "custom kabelaz herny pocitac" },
+          { name: "image4.jpg", alt: "krasny herny pocitac" },
       ]
     },
     en: {
-      title: "Dried thermal paste? Dust?",
-      date: "2022-02-21",
-      description: "Adhering to cleaning and repasting intervals helps your computer maintain its performance and, at the same time, extends the period of reliable operation.",
+      title: "White and RGB, again?",
+      date: "2023-02-10",
+      description: "The white color with RGB lighting hasn't gone out of fashion yet. The undeniable advantage is the ability to set the lighting across the entire spectrum.",
       images: [
-          { name: "image1.jpg", alt: "dry thermalpaste on processor overheating" },
-          { name: "image2.jpg", alt: "dry thermalpaste in graphics card overheating" },
-          { name: "image3.jpg", alt: "dust in a computer overheating" },
+          { name: "image1.jpg", alt: "RGB gaming computer" },
+          { name: "image2.jpg", alt: "LED gaming computer" },
+          { name: "image3.jpg", alt: "custom cable gaming computer" },
+          { name: "image4.jpg", alt: "beautiful gaming computer" },
       ]
     }
   };

@@ -1,25 +1,26 @@
-// src/assets/posts/post1/data.js
 export default {
     sk: {
-      title: "Štýlový workstation",
-      date: "2024-01-01",
-      description: "Krásna PC zostava určená na prácu v 3D programoch.",
+      title: "Prepastovanie grafickej karty s dôkladným čistením",
+      date: "2024-02-05",
+      description: "Prepastovanie grafickej karty je dôležitý úkon pri grafických kartách ktoré sú častejšie v záťaži.",
       images: [
-          { name: "image1.jpg", alt: "PC Zostava na mieru" },
-          { name: "image2.jpg", alt: "PC na pracu" },
-          { name: "image3.jpg", alt: "Graficka karta herna" },
-          { name: "image4.jpg", alt: "Asus tuf" },
+          { name: "image1.jpg", alt: "Prehrievanie grafickej karty" },
+          { name: "image2.jpg", alt: "Prach v grafickej karte" },
+          { name: "image3.jpg", alt: "Rozobratie grafickej karty" },
+          { name: "image4.jpg", alt: "Prepastovanie grafickej karty" },
+          { name: "image5.jpg", alt: "Čistenie grafickej karty" },
       ]
     },
     en: {
-      title: "Chick workstation",
-      date: "2024-01-01",
-      description: "Gorgeous custom built PC used mostly 3D software work",
+      title: "Repasting the graphics card with thorough cleaning.",
+      date: "2024-02-05",
+      description: "The repasting of a graphics card is an important procedure for graphics cards that are frequently under load.",
       images: [
-          { name: "image1.jpg", alt: "custom pc" },
-          { name: "image2.jpg", alt: "Custom built pc" },
-          { name: "image3.jpg", alt: "Gaming gpu" },
-          { name: "image4.jpg", alt: "Asus tuf" },
+          { name: "image1.jpg", alt: "Overheating GPU" },
+          { name: "image2.jpg", alt: "Dust in a GPU" },
+          { name: "image3.jpg", alt: "Dissasembly of a GPU" },
+          { name: "image4.jpg", alt: "Repasting a graphics card" },
+          { name: "image5.jpg", alt: "Cleaning a graphics card" },
       ]
     }
   };
