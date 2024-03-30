@@ -1,24 +1,35 @@
+// src/assets/posts/post2/data.js
 export default {
     sk: {
-      title: "Intel i5, 16GB ram, RX6700XT",
-      date: "2023-11-10",
-      description: "Jednoduchšia herná zostava ktorá ale neurazí ani svojim vzhľadom ani výkonom.",
+      title: "Upgrade RAM a kompletná profylaxia",
+      date: "2023-12-15",
+      description: "Potreboval by som rozšíriť RAM. Myslím že prečistiť ho popri tom by bolo určite fajn, ako je to u vás? :)",
       images: [
-          { name: "image1.jpg", alt: "RGB herna zostava" },
-          { name: "image2.jpg", alt: "herny pocitac" },
-          { name: "image3.jpg", alt: "tichy herny pocitac" },
-          { name: "image4.jpg", alt: "tuning pocitac" },
+          { name: "image1.jpg", alt: "prachovy filter v pocitaci" },
+          { name: "image2.jpg", alt: "prach v poctaci" },
+          { name: "image3.jpg", alt: "cistenie pocitaca kosice" },
+          { name: "image4.jpg", alt: "prach vo vodnom chladeni" },
+          { name: "image5.jpg", alt: "cistenie chladenia" },
+          { name: "image6.jpg", alt: "prach pri harddisku" },
+          { name: "image7.jpg", alt: "prehrievanie pocitaca" },
+          { name: "image8.jpg", alt: "akumulovany prach v pocitaci" },
+          { name: "image9.jpg", alt: "vycistena zostava" },
       ]
     },
     en: {
-      title: "White and RGB, again?",
-      date: "2023-11-10",
-      description: "A simpler gaming setup that won't disappoint in either looks or performance.",
+      title: "RAM upgrade with full maintenance.",
+      date: "2023-12-15",
+      description: "I need to expand my RAM. I think it would be great to clean it while we're at it.",
       images: [
-          { name: "image1.jpg", alt: "RGB gaming pc" },
-          { name: "image2.jpg", alt: "gaming computer" },
-          { name: "image3.jpg", alt: "silent gaming pc" },
-          { name: "image4.jpg", alt: "tuning computer" },
+          { name: "image1.jpg", alt: "dust filter in a computer" },
+          { name: "image2.jpg", alt: "dust in a computer" },
+          { name: "image3.jpg", alt: "computer cleaning" },
+          { name: "image4.jpg", alt: "water cooling dust cleaning" },
+          { name: "image5.jpg", alt: "overheating computer" },
+          { name: "image6.jpg", alt: "dust by the harddrive" },
+          { name: "image7.jpg", alt: "computer maintenance" },
+          { name: "image8.jpg", alt: "accumulated dust in a computer" },
+          { name: "image9.jpg", alt: "clean computer" },
       ]
     }
   };

@@ -1,24 +1,24 @@
 export default {
     sk: {
-      title: "Apple plný prachu",
-      date: "2022-05-10",
-      description: "Aj o MacBook sa sem tam treba postarať. Najmä ak používate svoj notebook v posteli alebo na kolenách a podobne.",
+      title: "Čierno-biela s RGB",
+      date: "2022-02-21",
+      description: "Veľmi výrazná a zaujimavá konfigurácia. Celé podsvietenie (RAM, GPU, Fany) je ovládané cez ASUS Aura Sync a teda si vie zákazník jedným klikom meniť farby na celom PC.",
       images: [
-          { name: "image1.jpg", alt: "Cistenie apple notebooku" },
-          { name: "image2.jpg", alt: "cistenie macbooku" },
-          { name: "image3.jpg", alt: "prehrievanie macbooku" },
-          { name: "image4.jpg", alt: "prehrievanie apple" },
+          { name: "image1.jpg", alt: "Fialovo biela herna zostava" },
+          { name: "image2.jpg", alt: "Herna zostava s podsvietenim biela fialova" },
+          { name: "image3.jpg", alt: "Herny pocitac s podsvietenim biela fialova" },
+          { name: "image4.jpg", alt: "Pocitac s podsvietenim a kablami na mieru" },
       ]
     },
     en: {
-      title: "Dusty MacBook",
-      date: "2022-05-10",
-      description: "Even a MacBook needs some care from time to time. Especially if you use your laptop in bed or on your lap, and so on.",
+      title: "Black and white with RGB",
+      date: "2022-02-21",
+      description: "A very distinctive and interesting configuration. The entire lighting (RAM, GPU, fans) is controlled through ASUS Aura Sync, allowing the customer to change colors across the entire PC with just one click.",
       images: [
-          { name: "image1.jpg", alt: "Apple laptop cleaning" },
-          { name: "image2.jpg", alt: "MacBook cleaning" },
-          { name: "image3.jpg", alt: "overheating MacBook" },
-          { name: "image4.jpg", alt: "overheating Apple" },
+          { name: "image1.jpg", alt: "White-purple gaming computer" },
+          { name: "image2.jpg", alt: "gaming computer with purple backlight" },
+          { name: "image3.jpg", alt: "custom built computer with purple backlight" },
+          { name: "image4.jpg", alt: "Custom build computer with backlight and custom cables" },
       ]
     }
   };

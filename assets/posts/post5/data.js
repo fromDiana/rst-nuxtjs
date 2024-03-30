@@ -1,24 +1,28 @@
 export default {
     sk: {
-      title: "Biela a RGB, zas?",
-      date: "2023-02-10",
-      description: "Biela farba s RGB podsvietením sa zatiaľ neokukala. Nespornou výhodou je možnosť nastavenia podsvietenia v celom spektre.",
+      title: "Vylepšenie WACOM tabletu",
+      date: "2023-12-04",
+      description: "Prečistený, prepastovaný a upgradnutý na 32GB ram + 1TB SSD",
       images: [
-          { name: "image1.jpg", alt: "RGB herny pocitac" },
-          { name: "image2.jpg", alt: "podsvieteny herny" },
-          { name: "image3.jpg", alt: "custom kabelaz herny pocitac" },
-          { name: "image4.jpg", alt: "krasny herny pocitac" },
+          { name: "image1.jpg", alt: "rozobratie wacom tabletu" },
+          { name: "image2.jpg", alt: "cistenie wacom chladenia" },
+          { name: "image3.jpg", alt: "prepastovanie wacom tabletu" },
+          { name: "image4.jpg", alt: "rozsirenie ram wacom" },
+          { name: "image5.jpg", alt: "cistenie chladenia" },
+          { name: "image6.jpg", alt: "repasovany wacom" },
       ]
     },
     en: {
-      title: "White and RGB, again?",
-      date: "2023-02-10",
-      description: "The white color with RGB lighting hasn't gone out of fashion yet. The undeniable advantage is the ability to set the lighting across the entire spectrum.",
+      title: "WACOM tablet upgrade",
+      date: "2023-12-04",
+      description: "Cleaned, repasted, and upgraded to 32GB RAM + 1TB SSD",
       images: [
-          { name: "image1.jpg", alt: "RGB gaming computer" },
-          { name: "image2.jpg", alt: "LED gaming computer" },
-          { name: "image3.jpg", alt: "custom cable gaming computer" },
-          { name: "image4.jpg", alt: "beautiful gaming computer" },
+          { name: "image1.jpg", alt: "disassembly of wacom tablet" },
+          { name: "image2.jpg", alt: "cleaning wacom cooling" },
+          { name: "image3.jpg", alt: "overheating wacom tablet" },
+          { name: "image4.jpg", alt: "ram upgrade wacom tablet" },
+          { name: "image5.jpg", alt: "Cooling cleaning" },
+          { name: "image6.jpg", alt: "renewed wacom" },
       ]
     }
   };

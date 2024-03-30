@@ -1,24 +1,24 @@
 export default {
     sk: {
-      title: "Čierno-biela s RGB",
-      date: "2022-02-21",
-      description: "Veľmi výrazná a zaujimavá konfigurácia. Celé podsvietenie (RAM, GPU, Fany) je ovládané cez ASUS Aura Sync a teda si vie zákazník jedným klikom meniť farby na celom PC.",
+      title: "Biela a RGB, zas?",
+      date: "2023-02-10",
+      description: "Biela farba s RGB podsvietením sa zatiaľ neokukala. Nespornou výhodou je možnosť nastavenia podsvietenia v celom spektre.",
       images: [
-          { name: "image1.jpg", alt: "Fialovo biela herna zostava" },
-          { name: "image2.jpg", alt: "Herna zostava s podsvietenim biela fialova" },
-          { name: "image3.jpg", alt: "Herny pocitac s podsvietenim biela fialova" },
-          { name: "image4.jpg", alt: "Pocitac s podsvietenim a kablami na mieru" },
+          { name: "image1.jpg", alt: "RGB herny pocitac" },
+          { name: "image2.jpg", alt: "podsvieteny herny" },
+          { name: "image3.jpg", alt: "custom kabelaz herny pocitac" },
+          { name: "image4.jpg", alt: "krasny herny pocitac" },
       ]
     },
     en: {
-      title: "Black and white with RGB",
-      date: "2022-02-21",
-      description: "A very distinctive and interesting configuration. The entire lighting (RAM, GPU, fans) is controlled through ASUS Aura Sync, allowing the customer to change colors across the entire PC with just one click.",
+      title: "White and RGB, again?",
+      date: "2023-02-10",
+      description: "The white color with RGB lighting hasn't gone out of fashion yet. The undeniable advantage is the ability to set the lighting across the entire spectrum.",
       images: [
-          { name: "image1.jpg", alt: "White-purple gaming computer" },
-          { name: "image2.jpg", alt: "gaming computer with purple backlight" },
-          { name: "image3.jpg", alt: "custom built computer with purple backlight" },
-          { name: "image4.jpg", alt: "Custom build computer with backlight and custom cables" },
+          { name: "image1.jpg", alt: "RGB gaming computer" },
+          { name: "image2.jpg", alt: "LED gaming computer" },
+          { name: "image3.jpg", alt: "custom cable gaming computer" },
+          { name: "image4.jpg", alt: "beautiful gaming computer" },
       ]
     }
   };

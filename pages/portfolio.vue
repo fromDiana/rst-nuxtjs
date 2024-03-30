@@ -43,7 +43,7 @@ export default {
         return {
             postsData: [],
             PostComponent: null,
-            loadedPostsCount: 10,
+            loadedPostsCount: 8,
         }
     },
     methods: {
@@ -67,10 +67,9 @@ export default {
         },
         async loadMorePosts() {
             let nextIndex = this.postsData.length + 1;
-            let endIndex = nextIndex + 10; // load 10 more posts
-            let maxPosts = 15; // change this to the total number of posts
-            if (endIndex > maxPosts) {
-                endIndex = maxPosts;
+            let endIndex = nextIndex + 8; // load 8 more posts
+            if (endIndex > 18) {
+                endIndex = 18; // Limit 18 posts
             }
             for (let i = nextIndex; i < endIndex; i++) {
                 try {

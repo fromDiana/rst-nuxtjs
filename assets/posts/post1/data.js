@@ -1,25 +1,22 @@
-// src/assets/posts/post1/data.js
 export default {
     sk: {
-      title: "Štýlový workstation",
-      date: "2024-01-01",
-      description: "Krásna PC zostava určená na prácu v 3D programoch.",
+      title: "Profylaxia po rokoch u spokojného zákazníka",
+      date: "2024-02-11",
+      description: "Prepastovanie počítačov, prečistenie od prachu, aktualizácia biosu a ovládačov s kompletným rozobratím a diagnostikou.",
       images: [
-          { name: "image1.jpg", alt: "PC Zostava na mieru" },
-          { name: "image2.jpg", alt: "PC na pracu" },
-          { name: "image3.jpg", alt: "Graficka karta herna" },
-          { name: "image4.jpg", alt: "Asus tuf" },
+          { name: "image1.jpg", alt: "Čistenie počítača" },
+          { name: "image2.jpg", alt: "aktualizácia BIOSu" },
+          { name: "image3.jpg", alt: "Prepastovanie počítača a aktualizácia BIOSu" },
       ]
     },
     en: {
-      title: "Chick workstation",
-      date: "2024-01-01",
-      description: "Gorgeous custom built PC used mostly 3D software work",
+      title: "Follow-up after years at a satisfied customer.",
+      date: "2024-02-11",
+      description: "Computer servicing, dust cleaning, BIOS and driver updates with complete disassembly and diagnostics.",
       images: [
-          { name: "image1.jpg", alt: "custom pc" },
-          { name: "image2.jpg", alt: "Custom built pc" },
-          { name: "image3.jpg", alt: "Gaming gpu" },
-          { name: "image4.jpg", alt: "Asus tuf" },
+          { name: "image1.jpg", alt: "Servicing a computer" },
+          { name: "image2.jpg", alt: "BIOS update" },
+          { name: "image3.jpg", alt: "Repaste computer and update BIOS" },
       ]
     }
   };

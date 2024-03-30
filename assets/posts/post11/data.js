@@ -1,26 +1,24 @@
 export default {
     sk: {
-      title: "Ryzen7 5800X, 32GB, Nvidia 2070",
-      date: "2020-06-10",
-      description: "Vyladený BIOS a ovládače, to je už samozrejmosť. Pomoc na diaľku, to je to čo z našeho pohľadu pomôže zákazníkovy najviac, aj dnes sme hneď po zákazníkovom príchode domov pomohli s páru drobnosťami a už si bezstarostne užíva assassin's creed valhalla. ",
+      title: "Apple plný prachu",
+      date: "2022-05-10",
+      description: "Aj o MacBook sa sem tam treba postarať. Najmä ak používate svoj notebook v posteli alebo na kolenách a podobne.",
       images: [
-          { name: "image1.jpg", alt: "tichy pc" },
-          { name: "image2.jpg", alt: "ticha pc zostava" },
-          { name: "image3.jpg", alt: "noctua" },
-          { name: "image4.jpg", alt: "herna graficka karta" },
-          { name: "image5.jpg", alt: "chladenie ventilatormi" },
+          { name: "image1.jpg", alt: "Cistenie apple notebooku" },
+          { name: "image2.jpg", alt: "cistenie macbooku" },
+          { name: "image3.jpg", alt: "prehrievanie macbooku" },
+          { name: "image4.jpg", alt: "prehrievanie apple" },
       ]
     },
     en: {
-      title: "Ryzen7 5800X, 32GB, Nvidia 2070",
-      date: "2020-06-10",
-      description: "Tuned BIOS and drivers are already a given. Remote assistance is what, from our perspective, helps the customer the most. Today, as soon as the customer arrived home, we helped with a couple of minor issues, and now they are enjoying Assassin's Creed Valhalla carefree.",
+      title: "Dusty MacBook",
+      date: "2022-05-10",
+      description: "Even a MacBook needs some care from time to time. Especially if you use your laptop in bed or on your lap, and so on.",
       images: [
-          { name: "image1.jpg", alt: "silent custom pc" },
-          { name: "image2.jpg", alt: "silent computer" },
-          { name: "image3.jpg", alt: "noctua" },
-          { name: "image4.jpg", alt: "gaming gpu" },
-          { name: "image5.jpg", alt: "cooling fans" },
+          { name: "image1.jpg", alt: "Apple laptop cleaning" },
+          { name: "image2.jpg", alt: "MacBook cleaning" },
+          { name: "image3.jpg", alt: "overheating MacBook" },
+          { name: "image4.jpg", alt: "overheating Apple" },
       ]
     }
   };

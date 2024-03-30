@@ -1,24 +1,22 @@
 export default {
     sk: {
-      title: "Red and black",
-      date: "2020-03-16",
-      description: "Po náročnom a zdĺhavom testovaní sme overili 100% stabilitu pri 5Ghz na 9700k a skĺbili absolútne ticho pri štandardnom používaní s nízkymi teplotami pod absolútne maximálnym vyťažením ako procesora tak ramiek aj grafickej karty.",
+      title: "Malinké PC vhodné na kancelársku prácu",
+      date: "2022-05-05",
+      description: "Tento malý PC bol vyslovene zostavený na tichú a úspornú prevádzku pre kancelárske využitie. Banana for scale.",
       images: [
-          { name: "image1.jpg", alt: "dizajnova pc zostava" },
-          { name: "image2.jpg", alt: "dizajnova zostava na mieru" },
-          { name: "image3.jpg", alt: "Graficka karta herna" },
-          { name: "image4.jpg", alt: "herna podsvietena zostava" },
+          { name: "image1.jpg", alt: "Maly pocitac" },
+          { name: "image2.jpg", alt: "usporny pocitac" },
+          { name: "image3.jpg", alt: "banana for scale" },
       ]
     },
     en: {
-      title: "Red and black",
-      date: "2020-03-16",
-      description: "After demanding and lengthy testing, we have confirmed 100% stability at 5GHz on the 9700k and achieved absolute silence during standard use with low temperatures under absolute maximum load for both the processor, RAM, and graphics card.",
+      title: "Small PC suitable for office work",
+      date: "2022-05-05",
+      description: "This small PC was specifically assembled for quiet and efficient operation for office use. Banana for scale.",
       images: [
-          { name: "image1.jpg", alt: "Design PC setup" },
-          { name: "image2.jpg", alt: "Custom-designed PC setup" },
-          { name: "image3.jpg", alt: "gaming gpu" },
-          { name: "image4.jpg", alt: "Gaming illuminated setup" },
+          { name: "image1.jpg", alt: "Mini custom built pc" },
+          { name: "image2.jpg", alt: "power efficient pc" },
+          { name: "image3.jpg", alt: "banana for scale" },
       ]
     }
   };

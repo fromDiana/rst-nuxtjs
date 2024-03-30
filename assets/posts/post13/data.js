@@ -1,24 +1,26 @@
 export default {
     sk: {
-      title: "Dell s hlučným ventilátorom",
-      date: "2020-02-14",
-      description: "Dnes nás čakal hrkajúci DELL. Naštastie sa jednalo iba o ventilátor. No, bola potrebná 100% istota a teda sa šlo do komplexnej diagnostiky.",
+      title: "Ryzen7 5800X, 32GB, Nvidia 2070",
+      date: "2020-06-10",
+      description: "Vyladený BIOS a ovládače, to je už samozrejmosť. Pomoc na diaľku, to je to čo z našeho pohľadu pomôže zákazníkovy najviac, aj dnes sme hneď po zákazníkovom príchode domov pomohli s páru drobnosťami a už si bezstarostne užíva assassin's creed valhalla. ",
       images: [
-          { name: "image1.jpg", alt: "prepastovanie notebooku" },
-          { name: "image2.jpg", alt: "cistenie notebooku" },
-          { name: "image3.jpg", alt: "prehrievanie notebooku" },
-          { name: "image4.jpg", alt: "prehrievanie DELL" },
+          { name: "image1.jpg", alt: "tichy pc" },
+          { name: "image2.jpg", alt: "ticha pc zostava" },
+          { name: "image3.jpg", alt: "noctua" },
+          { name: "image4.jpg", alt: "herna graficka karta" },
+          { name: "image5.jpg", alt: "chladenie ventilatormi" },
       ]
     },
     en: {
-      title: "Dell with a noisy fan",
-      date: "2020-02-14",
-      description: "Today we encountered a noisy DELL. Fortunately, it was only the fan. However, 100% certainty was needed, so we proceeded with a comprehensive diagnosis.",
+      title: "Ryzen7 5800X, 32GB, Nvidia 2070",
+      date: "2020-06-10",
+      description: "Tuned BIOS and drivers are already a given. Remote assistance is what, from our perspective, helps the customer the most. Today, as soon as the customer arrived home, we helped with a couple of minor issues, and now they are enjoying Assassin's Creed Valhalla carefree.",
       images: [
-          { name: "image1.jpg", alt: "laptop re-paste" },
-          { name: "image2.jpg", alt: "cleaning laptop" },
-          { name: "image3.jpg", alt: "overheating laptop" },
-          { name: "image4.jpg", alt: "overheating DELL" },
+          { name: "image1.jpg", alt: "silent custom pc" },
+          { name: "image2.jpg", alt: "silent computer" },
+          { name: "image3.jpg", alt: "noctua" },
+          { name: "image4.jpg", alt: "gaming gpu" },
+          { name: "image5.jpg", alt: "cooling fans" },
       ]
     }
   };

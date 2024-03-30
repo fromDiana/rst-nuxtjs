@@ -1,22 +1,24 @@
 export default {
     sk: {
-      title: "Malinké PC vhodné na kancelársku prácu",
-      date: "2022-05-05",
-      description: "Tento malý PC bol vyslovene zostavený na tichú a úspornú prevádzku pre kancelárske využitie. Banana for scale.",
+      title: "Threadripper 3970X",
+      date: "2021-08-30",
+      description: "Threadripper 3970X od AMD nie je to najjednoduchšie na uchladenie ale s touto perfektnou skrinkou a slušnou nádielkou Noctua fanov sme to zvládli skoro nepočuteľne.",
       images: [
-          { name: "image1.jpg", alt: "Maly pocitac" },
-          { name: "image2.jpg", alt: "usporny pocitac" },
-          { name: "image3.jpg", alt: "banana for scale" },
+          { name: "image1.jpg", alt: "Pracovna stanica na mieru" },
+          { name: "image2.jpg", alt: "Pracovna stanica" },
+          { name: "image3.jpg", alt: "Ticha pracovna stanica" },
+          { name: "image4.jpg", alt: "Spolahliva pracovna stanica" },
       ]
     },
     en: {
-      title: "Small PC suitable for office work",
-      date: "2022-05-05",
-      description: "This small PC was specifically assembled for quiet and efficient operation for office use. Banana for scale.",
+      title: "Threadripper 3970X",
+      date: "2021-08-30",
+      description: "The AMD Threadripper 3970X isn't the easiest to cool, but with this perfect case and a decent supply of Noctua fans, we managed to do it almost inaudibly.",
       images: [
-          { name: "image1.jpg", alt: "Mini custom built pc" },
-          { name: "image2.jpg", alt: "power efficient pc" },
-          { name: "image3.jpg", alt: "banana for scale" },
+          { name: "image1.jpg", alt: "Custom workstation" },
+          { name: "image2.jpg", alt: "workstation" },
+          { name: "image3.jpg", alt: "Silent workstation" },
+          { name: "image4.jpg", alt: "reliable workstation" },
       ]
     }
   };
