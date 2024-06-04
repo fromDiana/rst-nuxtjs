@@ -44,6 +44,7 @@ export default {
             postsData: [],
             PostComponent: null,
             loadedPostsCount: 8,
+            totalPostCount: 17, // CHANGE THIS TO THE TOTAL NUMBER OF POSTS
         }
     },
     methods: {
@@ -52,39 +53,39 @@ export default {
             this.PostComponent = PostComponentModule.default;
         },
         async loadPostsData() {
-            for (let i = 1; i <= this.loadedPostsCount; i++) {
-                try {
-                    let dataModule = await import(`@/assets/posts/post${i}/data.js`);
-                    const postData = {
-                        ...dataModule.default,
-                        id: i,
-                    };
-                    this.postsData.push(postData);
-                } catch (e) {
-                    console.error(`Failed to load data for post${i}:`, e);
-                }
+        for (let i = this.totalPostCount; i > this.totalPostCount - this.loadedPostsCount; i--) {
+            try {
+                let dataModule = await import(`@/assets/posts/post${i}/data.js`);
+                const postData = {
+                    ...dataModule.default,
+                    id: i,
+                };
+                this.postsData.push(postData);
+            } catch (e) {
+                console.error(`Failed to load data for post${i}:`, e);
             }
-        },
+        }
+    },
         async loadMorePosts() {
-            let nextIndex = this.postsData.length + 1;
-            let endIndex = nextIndex + 8; // load 8 more posts
-            if (endIndex > 18) {
-                endIndex = 18; // Limit 18 posts
+        let nextIndex = this.totalPostCount - this.postsData.length;
+        let endIndex = nextIndex - 8; // load 8 more posts
+        if (endIndex < 1) {
+            endIndex = 1; // Ensure we don't go below post 1
+        }
+        for (let i = nextIndex; i >= endIndex; i--) {
+            try {
+                let dataModule = await import(`@/assets/posts/post${i}/data.js`);
+                const postData = {
+                    ...dataModule.default,
+                    id: i,
+                };
+                this.postsData.push(postData);
+            } catch (e) {
+                console.error(`Failed to load data for post${i}:`, e);
+                break;
             }
-            for (let i = nextIndex; i < endIndex; i++) {
-                try {
-                    let dataModule = await import(`@/assets/posts/post${i}/data.js`);
-                    const postData = {
-                        ...dataModule.default,
-                        id: i,
-                    };
-                    this.postsData.push(postData);
-                } catch (e) {
-                    console.error(`Failed to load data for post${i}:`, e);
-                    break;
-                }
-            }
-        },
+        }
+    },
         handleScroll() {
             let bottomHalfOfWindow = document.documentElement.scrollTop + window.innerHeight >= document.documentElement.offsetHeight - window.innerHeight / 2;
             if (bottomHalfOfWindow) {
