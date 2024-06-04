@@ -2,15 +2,17 @@
   <div>
     <div id="fb-root"></div>
     <div class="main-page-image-background">
-      <div class="main-logo-text">
-        <div class="main-logo-text-element" style="font-size: 3.9vw; height: 3.7vw;">{{ $t('mainPage.rychlejsie') }}
-        </div>
-        <div class="main-logo-text-element" style="font-size: 5vw; height: 5.2vw;">{{
-          $t('mainPage.spolahlivejsie') }}</div>
-        <div class="main-logo-text-element" style="font-size: 3.65vw; height: 3.65vw;">{{ $t('mainPage.tichsie') }}
-        </div>
-      </div>
+      <picture>
+      <source srcset="../assets/Header_computer-4k.jpg" media="(min-width: 901px)">
+      <source srcset="../assets/Header_computer-mobile.jpg" media="(max-width: 900px)">
+      <img v-lazy="'../assets/Header_computer-4k.jpg'" alt="Main Page Background" class="background-image">
+    </picture>
+    <div class="main-logo-text">
+      <div class="main-logo-text-element" style="font-size: 3.9vw; height: 3.7vw;">{{ $t('mainPage.rychlejsie') }}</div>
+      <div class="main-logo-text-element" style="font-size: 5vw; height: 5.2vw;">{{ $t('mainPage.spolahlivejsie') }}</div>
+      <div class="main-logo-text-element" style="font-size: 3.65vw; height: 3.65vw;">{{ $t('mainPage.tichsie') }}</div>
     </div>
+  </div>
 
     <h1 class="main-page-buttons" id="services">
       <MainPageButton imageSrc="T_oprava_pocitacov a notebookov.png" text="mainPage.opravaPC"
@@ -137,16 +139,26 @@ export default {
   display: flex;
   width: 100vw;
   height: 0;
-  /* Start with zero height */
   padding-top: 69%;
-  /* Adjust the percentage based on the image's aspect ratio */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../assets/Header_computer.jpg');
-  background-size: cover;
-  background-position: top;
   position: relative;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-logo-text {
+  position: relative; /* Ensure text is positioned relative to the container */
+  z-index: 1; /* Ensure text is above the background image */
 }
 
 .main-logo-text {
