@@ -1,22 +1,24 @@
 export default {
     sk: {
-      title: "Vysušená teplovodivá pasta? Prach?",
-      date: "2022-02-21",
-      description: "Dodržiavanie intervalov čistenia a prepastovania pomôže vašemu počítaču udržať si výkon a zároveň, mu predlžujete obdobie spoľahlivého chodu.",
+      title: "Threadripper 3970X",
+      date: "2021-08-30",
+      description: "Threadripper 3970X od AMD nie je to najjednoduchšie na uchladenie ale s touto perfektnou skrinkou a slušnou nádielkou Noctua fanov sme to zvládli skoro nepočuteľne.",
       images: [
-          { name: "image1.jpg", alt: "procesor sucha teplovodiva pasta prehrievanie" },
-          { name: "image2.jpg", alt: "graficka karta sucha teplovodiva pasta prehrievanie" },
-          { name: "image3.jpg", alt: "prach v pocitaci prehrievanie" },
+          { name: "image1.jpg", alt: "Pracovna stanica na mieru" },
+          { name: "image2.jpg", alt: "Pracovna stanica" },
+          { name: "image3.jpg", alt: "Ticha pracovna stanica" },
+          { name: "image4.jpg", alt: "Spolahliva pracovna stanica" },
       ]
     },
     en: {
-      title: "Dried thermal paste? Dust?",
-      date: "2022-02-21",
-      description: "Adhering to cleaning and repasting intervals helps your computer maintain its performance and, at the same time, extends the period of reliable operation.",
+      title: "Threadripper 3970X",
+      date: "2021-08-30",
+      description: "The AMD Threadripper 3970X isn't the easiest to cool, but with this perfect case and a decent supply of Noctua fans, we managed to do it almost inaudibly.",
       images: [
-          { name: "image1.jpg", alt: "dry thermalpaste on processor overheating" },
-          { name: "image2.jpg", alt: "dry thermalpaste in graphics card overheating" },
-          { name: "image3.jpg", alt: "dust in a computer overheating" },
+          { name: "image1.jpg", alt: "Custom workstation" },
+          { name: "image2.jpg", alt: "workstation" },
+          { name: "image3.jpg", alt: "Silent workstation" },
+          { name: "image4.jpg", alt: "reliable workstation" },
       ]
     }
   };
