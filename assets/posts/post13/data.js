@@ -1,26 +1,28 @@
 export default {
     sk: {
-      title: "Ryzen7 5800X, 32GB, Nvidia 2070",
-      date: "2020-06-10",
-      description: "Vyladený BIOS a ovládače, to je už samozrejmosť. Pomoc na diaľku, to je to čo z našeho pohľadu pomôže zákazníkovy najviac, aj dnes sme hneď po zákazníkovom príchode domov pomohli s páru drobnosťami a už si bezstarostne užíva assassin's creed valhalla. ",
+      title: "Vylepšenie WACOM tabletu",
+      date: "2023-12-04",
+      description: "Prečistený, prepastovaný a upgradnutý na 32GB ram + 1TB SSD",
       images: [
-          { name: "image1.jpg", alt: "tichy pc" },
-          { name: "image2.jpg", alt: "ticha pc zostava" },
-          { name: "image3.jpg", alt: "noctua" },
-          { name: "image4.jpg", alt: "herna graficka karta" },
-          { name: "image5.jpg", alt: "chladenie ventilatormi" },
+          { name: "image1.jpg", alt: "rozobratie wacom tabletu" },
+          { name: "image2.jpg", alt: "cistenie wacom chladenia" },
+          { name: "image3.jpg", alt: "prepastovanie wacom tabletu" },
+          { name: "image4.jpg", alt: "rozsirenie ram wacom" },
+          { name: "image5.jpg", alt: "cistenie chladenia" },
+          { name: "image6.jpg", alt: "repasovany wacom" },
       ]
     },
     en: {
-      title: "Ryzen7 5800X, 32GB, Nvidia 2070",
-      date: "2020-06-10",
-      description: "Tuned BIOS and drivers are already a given. Remote assistance is what, from our perspective, helps the customer the most. Today, as soon as the customer arrived home, we helped with a couple of minor issues, and now they are enjoying Assassin's Creed Valhalla carefree.",
+      title: "WACOM tablet upgrade",
+      date: "2023-12-04",
+      description: "Cleaned, repasted, and upgraded to 32GB RAM + 1TB SSD",
       images: [
-          { name: "image1.jpg", alt: "silent custom pc" },
-          { name: "image2.jpg", alt: "silent computer" },
-          { name: "image3.jpg", alt: "noctua" },
-          { name: "image4.jpg", alt: "gaming gpu" },
-          { name: "image5.jpg", alt: "cooling fans" },
+          { name: "image1.jpg", alt: "disassembly of wacom tablet" },
+          { name: "image2.jpg", alt: "cleaning wacom cooling" },
+          { name: "image3.jpg", alt: "overheating wacom tablet" },
+          { name: "image4.jpg", alt: "ram upgrade wacom tablet" },
+          { name: "image5.jpg", alt: "Cooling cleaning" },
+          { name: "image6.jpg", alt: "renewed wacom" },
       ]
     }
   };
