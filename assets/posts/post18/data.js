@@ -1,6 +1,6 @@
 export default {
     sk: {
-      title: "Herný notebook s nefunkčným chladením",
+      title: "Herný notebook s problémom prehrievania",
       date: "2024-06-07",
       description: "Prepastovanie notebooku, prečistenie od prachu, komplexné čistenie od pasty ktorá je ako náhrada podložiek, návrat do nového stavu.",
       images: [
@@ -12,7 +12,7 @@ export default {
       ]
     },
     en: {
-      title: "Gaming laptop with mal-functing cooling",
+      title: "Gaming laptop with overheating issues",
       date: "2024-06-07",
       description: "Re-pasting the laptop, cleaning it from dust, comprehensive cleaning of the paste used as a substitute for pads, returning it to a like-new condition.",
       images: [
