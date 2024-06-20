@@ -181,7 +181,7 @@ export default {
     align-items: center;
     gap: 0.2rem;
     border-radius: 1.875rem;
-    border: 1px solid #EB00FF;
+    border: 1px solid #4b4b4b;
 }
 
 .text-element {
