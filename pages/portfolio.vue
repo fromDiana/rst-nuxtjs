@@ -44,7 +44,7 @@ export default {
             postsData: [],
             PostComponent: null,
             loadedPostsCount: 8,
-            totalPostCount: 19, // CHANGE THIS TO THE TOTAL NUMBER OF POSTS
+            totalPostCount: 20, // CHANGE THIS TO THE TOTAL NUMBER OF POSTS
         }
     },
     methods: {
