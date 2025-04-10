@@ -1,8 +1,9 @@
 <template>
     <footer class="footer">
-        <span class="desktop-footer">{{ $t("footer.created") }} <a href="https://dianaorsolyova.com/" target="_blank">Diana Oršolyová</a>
+        <span class="desktop-footer">{{ $t("footer.created") }} <a href="https://fromdiana.com/" target="_blank">Diana Oršolyová</a>
              | {{ $t("footer.design") }} <a href="https://www.linkedin.com/in/dalibor-jancura-23613a281" target="_blank">Dalibor Jancura</a></span>
-        <span class="mobile-footer">{{ $t("footer.created") }} <a href="https://dianaorsolyova.com/" target="_blank">Diana Oršolyová</a>
+      
+        <span class="mobile-footer">{{ $t("footer.created") }} <a href="https://fromdiana.com/" target="_blank">Diana Oršolyová</a>
              <br>{{ $t("footer.design") }} <a href="https://www.linkedin.com/in/dalibor-jancura-23613a281" target="_blank">Dalibor Jancura</a></span>
         <!-- <router-link to="/privacy-policy" class="footer-text">{{ $t("footer.privacy") }}</router-link> -->
     </footer>
